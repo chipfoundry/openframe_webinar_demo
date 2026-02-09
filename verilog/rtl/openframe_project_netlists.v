@@ -32,8 +32,11 @@
 `define OPENFRAME_IO_PADS 44
 
 `ifndef PnR
-    // `include "openframe_project_wrapper.v"
-    // `include "user_proj_timer.v"
-    // `include "vccd1_connection.v"
-    // `include "vssd1_connection.v"
+    `include "openframe_project_wrapper.v"
+    `include "counter_gpio_config_example.v"
+    `include "vccd1_connection.v"
+    `include "vssd1_connection.v"
+    
+    // Sky130 GPIO Config IP
+    `include "../../ip/CF_gpio_config/rtl/CF_gpio_config.v"
 `endif

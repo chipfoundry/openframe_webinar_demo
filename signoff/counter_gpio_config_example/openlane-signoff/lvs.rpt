@@ -1,0 +1,1608 @@
+
+Cell sky130_ef_sc_hd__decap_40_12 (0) disconnected node: VPWR
+Cell sky130_ef_sc_hd__decap_40_12 (0) disconnected node: VGND
+Cell sky130_ef_sc_hd__decap_40_12 (0) disconnected node: VPB
+Cell sky130_ef_sc_hd__decap_40_12 (0) disconnected node: VNB
+
+Subcircuit pins:
+Circuit 1: sky130_ef_sc_hd__decap_40_12    |Circuit 2: sky130_ef_sc_hd__decap_40_12    
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_ef_sc_hd__decap_40_12 and sky130_ef_sc_hd__decap_40_12 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_1         |Circuit 2: sky130_fd_sc_hd__fill_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_1 and sky130_fd_sc_hd__fill_1 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_4 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_4 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_4 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_4 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_4         |Circuit 2: sky130_fd_sc_hd__fill_4         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_4 and sky130_fd_sc_hd__fill_4 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_2         |Circuit 2: sky130_fd_sc_hd__fill_2         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_2 and sky130_fd_sc_hd__fill_2 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: HI
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: LO
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VPB
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__conb_1         |Circuit 2: sky130_fd_sc_hd__conb_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+HI                                         |HI                                         
+LO                                         |LO                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__conb_1 and sky130_fd_sc_hd__conb_1 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_8 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_8 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_8 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_8 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_8 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_8 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_8 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_8 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_8         |Circuit 2: sky130_fd_sc_hd__fill_8         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_8 and sky130_fd_sc_hd__fill_8 are equivalent.
+
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: C
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and3_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and3_1         |Circuit 2: sky130_fd_sc_hd__and3_1         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and3_1 and sky130_fd_sc_hd__and3_1 are equivalent.
+
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: DIODE
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
+-------------------------------------------|-------------------------------------------
+DIODE                                      |DIODE                                      
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
+
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__nand2_1 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand2_1        |Circuit 2: sky130_fd_sc_hd__nand2_1        
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand2_1 and sky130_fd_sc_hd__nand2_1 are equivalent.
+
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dlygate4sd3_1  |Circuit 2: sky130_fd_sc_hd__dlygate4sd3_1  
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dlygate4sd3_1 and sky130_fd_sc_hd__dlygate4sd3_1 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_1       |Circuit 2: sky130_fd_sc_hd__clkbuf_1       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_1 and sky130_fd_sc_hd__clkbuf_1 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__xor2_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__xor2_1         |Circuit 2: sky130_fd_sc_hd__xor2_1         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__xor2_1 and sky130_fd_sc_hd__xor2_1 are equivalent.
+
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_2 and sky130_fd_sc_hd__inv_2 are equivalent.
+
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: A1
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: A2
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: B1_N
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__o21ba_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__o21ba_1        |Circuit 2: sky130_fd_sc_hd__o21ba_1        
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1_N                                       |B1_N                                       
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__o21ba_1 and sky130_fd_sc_hd__o21ba_1 are equivalent.
+
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__bufinv_16 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__bufinv_16      |Circuit 2: sky130_fd_sc_hd__bufinv_16      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__bufinv_16 and sky130_fd_sc_hd__bufinv_16 are equivalent.
+
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: CLK
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: D
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: RESET_B
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__dfrtp_1 (0) disconnected node: Q
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dfrtp_1        |Circuit 2: sky130_fd_sc_hd__dfrtp_1        
+-------------------------------------------|-------------------------------------------
+CLK                                        |CLK                                        
+D                                          |D                                          
+RESET_B                                    |RESET_B                                    
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Q                                          |Q                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dfrtp_1 and sky130_fd_sc_hd__dfrtp_1 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: CLK
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: D
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: RESET_B
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: Q
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dfrtp_2        |Circuit 2: sky130_fd_sc_hd__dfrtp_2        
+-------------------------------------------|-------------------------------------------
+CLK                                        |CLK                                        
+D                                          |D                                          
+RESET_B                                    |RESET_B                                    
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Q                                          |Q                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dfrtp_2 and sky130_fd_sc_hd__dfrtp_2 are equivalent.
+
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: C
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: D
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and4_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and4_4         |Circuit 2: sky130_fd_sc_hd__and4_4         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and4_4 and sky130_fd_sc_hd__and4_4 are equivalent.
+
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: C
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: D
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and4_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and4_1         |Circuit 2: sky130_fd_sc_hd__and4_1         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and4_1 and sky130_fd_sc_hd__and4_1 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_4       |Circuit 2: sky130_fd_sc_hd__clkbuf_4       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_4 and sky130_fd_sc_hd__clkbuf_4 are equivalent.
+
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and2_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2_4         |Circuit 2: sky130_fd_sc_hd__and2_4         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2_4 and sky130_fd_sc_hd__and2_4 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_8 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_8          |Circuit 2: sky130_fd_sc_hd__buf_8          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_8 and sky130_fd_sc_hd__buf_8 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_2       |Circuit 2: sky130_fd_sc_hd__clkbuf_2       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_2 and sky130_fd_sc_hd__clkbuf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and2_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2_1         |Circuit 2: sky130_fd_sc_hd__and2_1         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2_1 and sky130_fd_sc_hd__and2_1 are equivalent.
+
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__nor2_1 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nor2_1         |Circuit 2: sky130_fd_sc_hd__nor2_1         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nor2_1 and sky130_fd_sc_hd__nor2_1 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_1 and sky130_fd_sc_hd__buf_1 are equivalent.
+
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: A1
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: A2
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: B1
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__a21oi_1 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__a21oi_1        |Circuit 2: sky130_fd_sc_hd__a21oi_1        
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__a21oi_1 and sky130_fd_sc_hd__a21oi_1 are equivalent.
+
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: A_N
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and2b_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2b_1        |Circuit 2: sky130_fd_sc_hd__and2b_1        
+-------------------------------------------|-------------------------------------------
+A_N                                        |A_N                                        
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2b_1 and sky130_fd_sc_hd__and2b_1 are equivalent.
+
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: A1
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: A2
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: A3
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: B1
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__a31o_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__a31o_1         |Circuit 2: sky130_fd_sc_hd__a31o_1         
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+B1                                         |B1                                         
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__a31o_1 and sky130_fd_sc_hd__a31o_1 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_6          |Circuit 2: sky130_fd_sc_hd__buf_6          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_6 and sky130_fd_sc_hd__buf_6 are equivalent.
+
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__xnor2_1 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__xnor2_1        |Circuit 2: sky130_fd_sc_hd__xnor2_1        
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__xnor2_1 and sky130_fd_sc_hd__xnor2_1 are equivalent.
+
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: B
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__or2_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or2_1          |Circuit 2: sky130_fd_sc_hd__or2_1          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or2_1 and sky130_fd_sc_hd__or2_1 are equivalent.
+
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[10]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[11]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[12]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[13]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[14]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[15]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[16]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[17]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[18]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[19]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[1]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[20]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[21]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[22]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[23]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[24]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[25]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[26]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[27]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[28]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[29]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[2]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[30]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[31]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[32]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[33]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[34]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[35]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[36]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[37]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[39]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[3]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[40]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[41]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[42]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[43]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[4]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[5]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[6]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[7]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[8]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[9]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[43]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[42]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[41]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[40]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[39]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[37]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[36]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[35]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[34]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[33]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[32]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[31]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[30]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[29]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[28]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[27]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[26]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[25]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[24]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[23]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[22]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[21]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[20]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[19]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[18]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[17]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[16]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[15]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[14]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[13]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[12]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[11]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[10]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[9]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[8]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[7]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[6]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[5]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[4]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[3]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[2]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[1]
+Class counter_gpio_config_example (0):  Merged 65595 parallel devices.
+Class counter_gpio_config_example (1):  Merged 65595 parallel devices.
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[10]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[11]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[12]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[13]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[14]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[15]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[16]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[17]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[18]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[19]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[1]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[20]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[21]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[22]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[23]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[24]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[25]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[26]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[27]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[28]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[29]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[2]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[30]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[31]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[32]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[33]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[34]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[35]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[36]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[37]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[39]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[3]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[40]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[41]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[42]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[43]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[4]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[5]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[6]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[7]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[8]
+Cell counter_gpio_config_example (0) disconnected node: gpio_in[9]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[43]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[42]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[41]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[40]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[39]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[37]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[36]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[35]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[34]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[33]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[32]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[31]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[30]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[29]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[28]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[27]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[26]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[25]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[24]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[23]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[22]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[21]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[20]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[19]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[18]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[17]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[16]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[15]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[14]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[13]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[12]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[11]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[10]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[9]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[8]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[7]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[6]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[5]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[4]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[3]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[2]
+Cell counter_gpio_config_example (1) disconnected node: gpio_in[1]
+Subcircuit summary:
+Circuit 1: counter_gpio_config_example     |Circuit 2: counter_gpio_config_example     
+-------------------------------------------|-------------------------------------------
+sky130_ef_sc_hd__decap_40_12 (32370->1)    |sky130_ef_sc_hd__decap_40_12 (32370->1)    
+sky130_fd_sc_hd__tapvpwrvgnd_1 (8122->1)   |sky130_fd_sc_hd__tapvpwrvgnd_1 (8122->1)   
+sky130_fd_sc_hd__fill_1 (8138->1)          |sky130_fd_sc_hd__fill_1 (8138->1)          
+sky130_fd_sc_hd__fill_4 (8017->1)          |sky130_fd_sc_hd__fill_4 (8017->1)          
+sky130_fd_sc_hd__fill_2 (7967->1)          |sky130_fd_sc_hd__fill_2 (7967->1)          
+sky130_fd_sc_hd__decap_3 (718->1)          |sky130_fd_sc_hd__decap_3 (718->1)          
+sky130_fd_sc_hd__conb_1 (544)              |sky130_fd_sc_hd__conb_1 (544)              
+sky130_fd_sc_hd__fill_8 (196->1)           |sky130_fd_sc_hd__fill_8 (196->1)           
+sky130_fd_sc_hd__and3_1 (5)                |sky130_fd_sc_hd__and3_1 (5)                
+sky130_fd_sc_hd__diode_2 (92->18)          |sky130_fd_sc_hd__diode_2 (92->18)          
+sky130_fd_sc_hd__nand2_1 (1)               |sky130_fd_sc_hd__nand2_1 (1)               
+sky130_fd_sc_hd__dlygate4sd3_1 (36)        |sky130_fd_sc_hd__dlygate4sd3_1 (36)        
+sky130_fd_sc_hd__clkbuf_1 (21)             |sky130_fd_sc_hd__clkbuf_1 (21)             
+sky130_fd_sc_hd__buf_2 (28)                |sky130_fd_sc_hd__buf_2 (28)                
+sky130_fd_sc_hd__xor2_1 (8)                |sky130_fd_sc_hd__xor2_1 (8)                
+sky130_fd_sc_hd__inv_2 (2)                 |sky130_fd_sc_hd__inv_2 (2)                 
+sky130_fd_sc_hd__o21ba_1 (4)               |sky130_fd_sc_hd__o21ba_1 (4)               
+sky130_fd_sc_hd__bufinv_16 (1)             |sky130_fd_sc_hd__bufinv_16 (1)             
+sky130_fd_sc_hd__dfrtp_1 (18)              |sky130_fd_sc_hd__dfrtp_1 (18)              
+sky130_fd_sc_hd__clkbuf_16 (4)             |sky130_fd_sc_hd__clkbuf_16 (4)             
+sky130_fd_sc_hd__dfrtp_2 (2)               |sky130_fd_sc_hd__dfrtp_2 (2)               
+sky130_fd_sc_hd__and4_4 (3)                |sky130_fd_sc_hd__and4_4 (3)                
+sky130_fd_sc_hd__and4_1 (5)                |sky130_fd_sc_hd__and4_1 (5)                
+sky130_fd_sc_hd__clkbuf_4 (1)              |sky130_fd_sc_hd__clkbuf_4 (1)              
+sky130_fd_sc_hd__and2_4 (1)                |sky130_fd_sc_hd__and2_4 (1)                
+sky130_fd_sc_hd__buf_8 (1)                 |sky130_fd_sc_hd__buf_8 (1)                 
+sky130_fd_sc_hd__clkbuf_2 (2)              |sky130_fd_sc_hd__clkbuf_2 (2)              
+sky130_fd_sc_hd__and2_1 (3)                |sky130_fd_sc_hd__and2_1 (3)                
+sky130_fd_sc_hd__nor2_1 (4)                |sky130_fd_sc_hd__nor2_1 (4)                
+sky130_fd_sc_hd__buf_1 (4)                 |sky130_fd_sc_hd__buf_1 (4)                 
+sky130_fd_sc_hd__a21oi_1 (2)               |sky130_fd_sc_hd__a21oi_1 (2)               
+sky130_fd_sc_hd__and2b_1 (2)               |sky130_fd_sc_hd__and2b_1 (2)               
+sky130_fd_sc_hd__a31o_1 (2)                |sky130_fd_sc_hd__a31o_1 (2)                
+sky130_fd_sc_hd__buf_6 (1)                 |sky130_fd_sc_hd__buf_6 (1)                 
+sky130_fd_sc_hd__xnor2_1 (1)               |sky130_fd_sc_hd__xnor2_1 (1)               
+sky130_fd_sc_hd__or2_1 (1)                 |sky130_fd_sc_hd__or2_1 (1)                 
+Number of devices: 732                     |Number of devices: 732                     
+Number of nets: 1256                       |Number of nets: 1256                       
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: counter_gpio_config_example     |Circuit 2: counter_gpio_config_example     
+-------------------------------------------|-------------------------------------------
+gpio_in[38]                                |gpio_in[38]                                
+gpio_in[0]                                 |gpio_in[0]                                 
+resetb_l                                   |resetb_l                                   
+gpio_out[36]                               |gpio_out[36]                               
+gpio_out[26]                               |gpio_out[26]                               
+gpio_out[34]                               |gpio_out[34]                               
+gpio_out[35]                               |gpio_out[35]                               
+gpio_out[3]                                |gpio_out[3]                                
+gpio_out[28]                               |gpio_out[28]                               
+gpio_out[29]                               |gpio_out[29]                               
+gpio_out[37]                               |gpio_out[37]                               
+gpio_out[27]                               |gpio_out[27]                               
+gpio_out[24]                               |gpio_out[24]                               
+gpio_out[31]                               |gpio_out[31]                               
+gpio_out[32]                               |gpio_out[32]                               
+gpio_out[22]                               |gpio_out[22]                               
+gpio_out[23]                               |gpio_out[23]                               
+gpio_out[25]                               |gpio_out[25]                               
+gpio_out[2]                                |gpio_out[2]                                
+gpio_out[18]                               |gpio_out[18]                               
+gpio_out[33]                               |gpio_out[33]                               
+gpio_out[4]                                |gpio_out[4]                                
+gpio_out[20]                               |gpio_out[20]                               
+gpio_out[5]                                |gpio_out[5]                                
+gpio_out[21]                               |gpio_out[21]                               
+gpio_oeb[21]                               |gpio_oeb[21]                               
+gpio_oeb[20]                               |gpio_oeb[20]                               
+gpio_oeb[19]                               |gpio_oeb[19]                               
+gpio_oeb[18]                               |gpio_oeb[18]                               
+gpio_out[19]                               |gpio_out[19]                               
+gpio_out[30]                               |gpio_out[30]                               
+gpio_dm0[1]                                |gpio_dm0[1]                                
+gpio_dm0[39]                               |gpio_dm0[39]                               
+gpio_dm0[0]                                |gpio_dm0[0]                                
+gpio_dm1[11]                               |gpio_dm1[11]                               
+gpio_dm0[38]                               |gpio_dm0[38]                               
+gpio_dm1[21]                               |gpio_dm1[21]                               
+gpio_dm1[10]                               |gpio_dm1[10]                               
+gpio_dm0[13]                               |gpio_dm0[13]                               
+gpio_dm1[20]                               |gpio_dm1[20]                               
+gpio_dm1[5]                                |gpio_dm1[5]                                
+gpio_dm0[12]                               |gpio_dm0[12]                               
+gpio_dm1[19]                               |gpio_dm1[19]                               
+gpio_dm1[4]                                |gpio_dm1[4]                                
+gpio_dm0[11]                               |gpio_dm0[11]                               
+gpio_dm1[18]                               |gpio_dm1[18]                               
+gpio_dm1[3]                                |gpio_dm1[3]                                
+gpio_dm0[10]                               |gpio_dm0[10]                               
+gpio_dm1[17]                               |gpio_dm1[17]                               
+gpio_dm1[2]                                |gpio_dm1[2]                                
+gpio_dm0[9]                                |gpio_dm0[9]                                
+gpio_dm1[16]                               |gpio_dm1[16]                               
+gpio_dm0[43]                               |gpio_dm0[43]                               
+gpio_dm0[8]                                |gpio_dm0[8]                                
+gpio_dm1[15]                               |gpio_dm1[15]                               
+gpio_dm0[42]                               |gpio_dm0[42]                               
+gpio_dm0[7]                                |gpio_dm0[7]                                
+gpio_dm1[14]                               |gpio_dm1[14]                               
+gpio_dm0[41]                               |gpio_dm0[41]                               
+gpio_dm0[6]                                |gpio_dm0[6]                                
+gpio_dm1[13]                               |gpio_dm1[13]                               
+gpio_dm0[40]                               |gpio_dm0[40]                               
+gpio_dm1[12]                               |gpio_dm1[12]                               
+gpio_dm1[31]                               |gpio_dm1[31]                               
+gpio_dm2[5]                                |gpio_dm2[5]                                
+gpio_dm1[30]                               |gpio_dm1[30]                               
+gpio_dm2[27]                               |gpio_dm2[27]                               
+gpio_dm2[4]                                |gpio_dm2[4]                                
+gpio_dm1[29]                               |gpio_dm1[29]                               
+gpio_dm2[37]                               |gpio_dm2[37]                               
+gpio_dm2[26]                               |gpio_dm2[26]                               
+gpio_dm2[3]                                |gpio_dm2[3]                                
+gpio_dm1[28]                               |gpio_dm1[28]                               
+gpio_inp_dis[27]                           |gpio_inp_dis[27]                           
+gpio_dm2[36]                               |gpio_dm2[36]                               
+gpio_dm2[25]                               |gpio_dm2[25]                               
+gpio_dm2[2]                                |gpio_dm2[2]                                
+gpio_dm1[27]                               |gpio_dm1[27]                               
+gpio_inp_dis[37]                           |gpio_inp_dis[37]                           
+gpio_inp_dis[26]                           |gpio_inp_dis[26]                           
+gpio_dm2[35]                               |gpio_dm2[35]                               
+gpio_dm2[24]                               |gpio_dm2[24]                               
+gpio_dm1[37]                               |gpio_dm1[37]                               
+gpio_dm1[26]                               |gpio_dm1[26]                               
+gpio_oeb[41]                               |gpio_oeb[41]                               
+gpio_inp_dis[36]                           |gpio_inp_dis[36]                           
+gpio_inp_dis[25]                           |gpio_inp_dis[25]                           
+gpio_dm2[34]                               |gpio_dm2[34]                               
+gpio_dm2[23]                               |gpio_dm2[23]                               
+gpio_dm1[36]                               |gpio_dm1[36]                               
+gpio_dm1[25]                               |gpio_dm1[25]                               
+gpio_oeb[40]                               |gpio_oeb[40]                               
+gpio_inp_dis[35]                           |gpio_inp_dis[35]                           
+gpio_inp_dis[24]                           |gpio_inp_dis[24]                           
+gpio_dm2[33]                               |gpio_dm2[33]                               
+gpio_dm2[22]                               |gpio_dm2[22]                               
+gpio_dm1[35]                               |gpio_dm1[35]                               
+gpio_dm1[24]                               |gpio_dm1[24]                               
+gpio_oeb[39]                               |gpio_oeb[39]                               
+gpio_inp_dis[34]                           |gpio_inp_dis[34]                           
+gpio_inp_dis[23]                           |gpio_inp_dis[23]                           
+gpio_dm2[32]                               |gpio_dm2[32]                               
+gpio_dm2[21]                               |gpio_dm2[21]                               
+gpio_dm1[34]                               |gpio_dm1[34]                               
+gpio_dm1[23]                               |gpio_dm1[23]                               
+gpio_oeb[38]                               |gpio_oeb[38]                               
+gpio_inp_dis[33]                           |gpio_inp_dis[33]                           
+gpio_inp_dis[22]                           |gpio_inp_dis[22]                           
+gpio_dm2[31]                               |gpio_dm2[31]                               
+gpio_dm2[20]                               |gpio_dm2[20]                               
+gpio_dm1[33]                               |gpio_dm1[33]                               
+gpio_dm1[22]                               |gpio_dm1[22]                               
+gpio_oeb[9]                                |gpio_oeb[9]                                
+gpio_inp_dis[32]                           |gpio_inp_dis[32]                           
+gpio_inp_dis[5]                            |gpio_inp_dis[5]                            
+gpio_dm2[30]                               |gpio_dm2[30]                               
+gpio_dm2[19]                               |gpio_dm2[19]                               
+gpio_dm1[32]                               |gpio_dm1[32]                               
+gpio_out[17]                               |gpio_out[17]                               
+gpio_oeb[8]                                |gpio_oeb[8]                                
+gpio_inp_dis[31]                           |gpio_inp_dis[31]                           
+gpio_inp_dis[4]                            |gpio_inp_dis[4]                            
+gpio_dm2[29]                               |gpio_dm2[29]                               
+gpio_dm2[18]                               |gpio_dm2[18]                               
+gpio_out[16]                               |gpio_out[16]                               
+gpio_oeb[7]                                |gpio_oeb[7]                                
+gpio_inp_dis[30]                           |gpio_inp_dis[30]                           
+gpio_inp_dis[3]                            |gpio_inp_dis[3]                            
+gpio_dm2[28]                               |gpio_dm2[28]                               
+gpio_out[15]                               |gpio_out[15]                               
+gpio_oeb[6]                                |gpio_oeb[6]                                
+gpio_inp_dis[29]                           |gpio_inp_dis[29]                           
+gpio_inp_dis[2]                            |gpio_inp_dis[2]                            
+gpio_out[14]                               |gpio_out[14]                               
+gpio_oeb[1]                                |gpio_oeb[1]                                
+gpio_inp_dis[28]                           |gpio_inp_dis[28]                           
+gpio_oeb[43]                               |gpio_oeb[43]                               
+gpio_oeb[0]                                |gpio_oeb[0]                                
+gpio_oeb[42]                               |gpio_oeb[42]                               
+gpio_analog_pol[32]                        |gpio_analog_pol[32]                        
+gpio_analog_pol[21]                        |gpio_analog_pol[21]                        
+gpio_slow_sel[4]                           |gpio_slow_sel[4]                           
+gpio_out[13]                               |gpio_out[13]                               
+gpio_oeb[36]                               |gpio_oeb[36]                               
+gpio_oeb[25]                               |gpio_oeb[25]                               
+gpio_oeb[10]                               |gpio_oeb[10]                               
+gpio_inp_dis[21]                           |gpio_inp_dis[21]                           
+gpio_analog_pol[42]                        |gpio_analog_pol[42]                        
+gpio_analog_pol[31]                        |gpio_analog_pol[31]                        
+gpio_analog_pol[20]                        |gpio_analog_pol[20]                        
+gpio_dm0[2]                                |gpio_dm0[2]                                
+gpio_slow_sel[14]                          |gpio_slow_sel[14]                          
+gpio_slow_sel[3]                           |gpio_slow_sel[3]                           
+gpio_out[12]                               |gpio_out[12]                               
+gpio_oeb[35]                               |gpio_oeb[35]                               
+gpio_oeb[24]                               |gpio_oeb[24]                               
+gpio_oeb[5]                                |gpio_oeb[5]                                
+gpio_inp_dis[20]                           |gpio_inp_dis[20]                           
+gpio_analog_sel[8]                         |gpio_analog_sel[8]                         
+gpio_analog_pol[41]                        |gpio_analog_pol[41]                        
+gpio_analog_pol[30]                        |gpio_analog_pol[30]                        
+gpio_analog_pol[19]                        |gpio_analog_pol[19]                        
+gpio_dm0[20]                               |gpio_dm0[20]                               
+gpio_analog_sel[43]                        |gpio_analog_sel[43]                        
+gpio_slow_sel[24]                          |gpio_slow_sel[24]                          
+gpio_slow_sel[13]                          |gpio_slow_sel[13]                          
+gpio_slow_sel[2]                           |gpio_slow_sel[2]                           
+gpio_out[11]                               |gpio_out[11]                               
+gpio_oeb[34]                               |gpio_oeb[34]                               
+gpio_oeb[23]                               |gpio_oeb[23]                               
+gpio_oeb[4]                                |gpio_oeb[4]                                
+gpio_inp_dis[19]                           |gpio_inp_dis[19]                           
+gpio_analog_sel[18]                        |gpio_analog_sel[18]                        
+gpio_analog_sel[7]                         |gpio_analog_sel[7]                         
+gpio_analog_pol[40]                        |gpio_analog_pol[40]                        
+gpio_analog_pol[29]                        |gpio_analog_pol[29]                        
+gpio_analog_pol[18]                        |gpio_analog_pol[18]                        
+gpio_dm0[30]                               |gpio_dm0[30]                               
+gpio_dm0[19]                               |gpio_dm0[19]                               
+gpio_analog_sel[42]                        |gpio_analog_sel[42]                        
+gpio_slow_sel[34]                          |gpio_slow_sel[34]                          
+gpio_slow_sel[23]                          |gpio_slow_sel[23]                          
+gpio_slow_sel[12]                          |gpio_slow_sel[12]                          
+gpio_slow_sel[1]                           |gpio_slow_sel[1]                           
+gpio_out[10]                               |gpio_out[10]                               
+gpio_oeb[33]                               |gpio_oeb[33]                               
+gpio_oeb[22]                               |gpio_oeb[22]                               
+gpio_oeb[3]                                |gpio_oeb[3]                                
+gpio_inp_dis[18]                           |gpio_inp_dis[18]                           
+gpio_analog_sel[28]                        |gpio_analog_sel[28]                        
+gpio_analog_sel[17]                        |gpio_analog_sel[17]                        
+gpio_analog_sel[6]                         |gpio_analog_sel[6]                         
+gpio_analog_pol[39]                        |gpio_analog_pol[39]                        
+gpio_analog_pol[28]                        |gpio_analog_pol[28]                        
+gpio_analog_pol[17]                        |gpio_analog_pol[17]                        
+gpio_dm1[6]                                |gpio_dm1[6]                                
+gpio_dm0[29]                               |gpio_dm0[29]                               
+gpio_dm0[18]                               |gpio_dm0[18]                               
+gpio_analog_sel[41]                        |gpio_analog_sel[41]                        
+gpio_vtrip_sel[0]                          |gpio_vtrip_sel[0]                          
+gpio_slow_sel[33]                          |gpio_slow_sel[33]                          
+gpio_slow_sel[22]                          |gpio_slow_sel[22]                          
+gpio_slow_sel[11]                          |gpio_slow_sel[11]                          
+gpio_slow_sel[0]                           |gpio_slow_sel[0]                           
+gpio_out[9]                                |gpio_out[9]                                
+gpio_oeb[32]                               |gpio_oeb[32]                               
+gpio_oeb[17]                               |gpio_oeb[17]                               
+gpio_oeb[2]                                |gpio_oeb[2]                                
+gpio_inp_dis[17]                           |gpio_inp_dis[17]                           
+gpio_analog_sel[27]                        |gpio_analog_sel[27]                        
+gpio_analog_sel[16]                        |gpio_analog_sel[16]                        
+gpio_analog_sel[5]                         |gpio_analog_sel[5]                         
+gpio_analog_pol[38]                        |gpio_analog_pol[38]                        
+gpio_analog_pol[27]                        |gpio_analog_pol[27]                        
+gpio_analog_pol[16]                        |gpio_analog_pol[16]                        
+gpio_dm2[0]                                |gpio_dm2[0]                                
+gpio_dm1[1]                                |gpio_dm1[1]                                
+gpio_dm0[28]                               |gpio_dm0[28]                               
+gpio_dm0[17]                               |gpio_dm0[17]                               
+gpio_analog_sel[40]                        |gpio_analog_sel[40]                        
+gpio_slow_sel[43]                          |gpio_slow_sel[43]                          
+gpio_slow_sel[32]                          |gpio_slow_sel[32]                          
+gpio_slow_sel[21]                          |gpio_slow_sel[21]                          
+gpio_slow_sel[10]                          |gpio_slow_sel[10]                          
+gpio_out[43]                               |gpio_out[43]                               
+gpio_out[8]                                |gpio_out[8]                                
+gpio_oeb[31]                               |gpio_oeb[31]                               
+gpio_oeb[16]                               |gpio_oeb[16]                               
+gpio_inp_dis[43]                           |gpio_inp_dis[43]                           
+gpio_analog_sel[26]                        |gpio_analog_sel[26]                        
+gpio_analog_sel[15]                        |gpio_analog_sel[15]                        
+gpio_analog_sel[4]                         |gpio_analog_sel[4]                         
+gpio_analog_pol[37]                        |gpio_analog_pol[37]                        
+gpio_analog_pol[26]                        |gpio_analog_pol[26]                        
+gpio_analog_pol[15]                        |gpio_analog_pol[15]                        
+gpio_dm2[14]                               |gpio_dm2[14]                               
+gpio_dm1[43]                               |gpio_dm1[43]                               
+gpio_dm1[0]                                |gpio_dm1[0]                                
+gpio_dm0[27]                               |gpio_dm0[27]                               
+gpio_dm0[16]                               |gpio_dm0[16]                               
+gpio_analog_sel[39]                        |gpio_analog_sel[39]                        
+gpio_slow_sel[42]                          |gpio_slow_sel[42]                          
+gpio_slow_sel[31]                          |gpio_slow_sel[31]                          
+gpio_slow_sel[20]                          |gpio_slow_sel[20]                          
+gpio_slow_sel[9]                           |gpio_slow_sel[9]                           
+gpio_out[42]                               |gpio_out[42]                               
+gpio_out[7]                                |gpio_out[7]                                
+gpio_oeb[30]                               |gpio_oeb[30]                               
+gpio_oeb[15]                               |gpio_oeb[15]                               
+gpio_analog_sel[36]                        |gpio_analog_sel[36]                        
+gpio_analog_sel[25]                        |gpio_analog_sel[25]                        
+gpio_analog_sel[14]                        |gpio_analog_sel[14]                        
+gpio_analog_sel[3]                         |gpio_analog_sel[3]                         
+gpio_analog_pol[36]                        |gpio_analog_pol[36]                        
+gpio_analog_pol[25]                        |gpio_analog_pol[25]                        
+gpio_analog_pol[14]                        |gpio_analog_pol[14]                        
+gpio_holdover[0]                           |gpio_holdover[0]                           
+gpio_dm2[13]                               |gpio_dm2[13]                               
+gpio_dm1[42]                               |gpio_dm1[42]                               
+gpio_dm0[37]                               |gpio_dm0[37]                               
+gpio_dm0[26]                               |gpio_dm0[26]                               
+gpio_dm0[15]                               |gpio_dm0[15]                               
+gpio_analog_sel[38]                        |gpio_analog_sel[38]                        
+gpio_slow_sel[41]                          |gpio_slow_sel[41]                          
+gpio_slow_sel[30]                          |gpio_slow_sel[30]                          
+gpio_slow_sel[19]                          |gpio_slow_sel[19]                          
+gpio_slow_sel[8]                           |gpio_slow_sel[8]                           
+gpio_out[41]                               |gpio_out[41]                               
+gpio_out[6]                                |gpio_out[6]                                
+gpio_oeb[29]                               |gpio_oeb[29]                               
+gpio_analog_sel[35]                        |gpio_analog_sel[35]                        
+gpio_analog_sel[24]                        |gpio_analog_sel[24]                        
+gpio_analog_sel[13]                        |gpio_analog_sel[13]                        
+gpio_analog_sel[2]                         |gpio_analog_sel[2]                         
+gpio_analog_pol[35]                        |gpio_analog_pol[35]                        
+gpio_analog_pol[24]                        |gpio_analog_pol[24]                        
+gpio_analog_pol[13]                        |gpio_analog_pol[13]                        
+gpio_dm2[43]                               |gpio_dm2[43]                               
+gpio_dm2[12]                               |gpio_dm2[12]                               
+gpio_dm1[41]                               |gpio_dm1[41]                               
+gpio_dm0[36]                               |gpio_dm0[36]                               
+gpio_dm0[25]                               |gpio_dm0[25]                               
+gpio_dm0[14]                               |gpio_dm0[14]                               
+gpio_analog_sel[37]                        |gpio_analog_sel[37]                        
+gpio_slow_sel[40]                          |gpio_slow_sel[40]                          
+gpio_slow_sel[29]                          |gpio_slow_sel[29]                          
+gpio_slow_sel[18]                          |gpio_slow_sel[18]                          
+gpio_slow_sel[7]                           |gpio_slow_sel[7]                           
+gpio_out[40]                               |gpio_out[40]                               
+gpio_out[1]                                |gpio_out[1]                                
+gpio_analog_sel[34]                        |gpio_analog_sel[34]                        
+gpio_analog_sel[23]                        |gpio_analog_sel[23]                        
+gpio_analog_sel[12]                        |gpio_analog_sel[12]                        
+gpio_analog_sel[1]                         |gpio_analog_sel[1]                         
+gpio_analog_pol[34]                        |gpio_analog_pol[34]                        
+gpio_analog_pol[23]                        |gpio_analog_pol[23]                        
+gpio_dm2[42]                               |gpio_dm2[42]                               
+gpio_dm2[11]                               |gpio_dm2[11]                               
+gpio_dm1[40]                               |gpio_dm1[40]                               
+gpio_dm0[35]                               |gpio_dm0[35]                               
+gpio_dm0[24]                               |gpio_dm0[24]                               
+gpio_dm0[5]                                |gpio_dm0[5]                                
+gpio_slow_sel[39]                          |gpio_slow_sel[39]                          
+gpio_slow_sel[28]                          |gpio_slow_sel[28]                          
+gpio_slow_sel[17]                          |gpio_slow_sel[17]                          
+gpio_slow_sel[6]                           |gpio_slow_sel[6]                           
+gpio_out[39]                               |gpio_out[39]                               
+gpio_analog_sel[33]                        |gpio_analog_sel[33]                        
+gpio_analog_sel[22]                        |gpio_analog_sel[22]                        
+gpio_analog_sel[11]                        |gpio_analog_sel[11]                        
+gpio_analog_sel[0]                         |gpio_analog_sel[0]                         
+gpio_analog_pol[33]                        |gpio_analog_pol[33]                        
+gpio_dm2[41]                               |gpio_dm2[41]                               
+gpio_dm2[10]                               |gpio_dm2[10]                               
+gpio_dm1[39]                               |gpio_dm1[39]                               
+gpio_dm0[34]                               |gpio_dm0[34]                               
+gpio_dm0[23]                               |gpio_dm0[23]                               
+gpio_dm0[4]                                |gpio_dm0[4]                                
+gpio_slow_sel[38]                          |gpio_slow_sel[38]                          
+gpio_slow_sel[27]                          |gpio_slow_sel[27]                          
+gpio_slow_sel[16]                          |gpio_slow_sel[16]                          
+gpio_slow_sel[5]                           |gpio_slow_sel[5]                           
+gpio_analog_sel[32]                        |gpio_analog_sel[32]                        
+gpio_analog_sel[21]                        |gpio_analog_sel[21]                        
+gpio_analog_sel[10]                        |gpio_analog_sel[10]                        
+gpio_analog_pol[43]                        |gpio_analog_pol[43]                        
+gpio_dm2[40]                               |gpio_dm2[40]                               
+gpio_dm2[9]                                |gpio_dm2[9]                                
+gpio_dm1[38]                               |gpio_dm1[38]                               
+gpio_dm0[33]                               |gpio_dm0[33]                               
+gpio_dm0[22]                               |gpio_dm0[22]                               
+gpio_dm0[3]                                |gpio_dm0[3]                                
+gpio_slow_sel[37]                          |gpio_slow_sel[37]                          
+gpio_slow_sel[26]                          |gpio_slow_sel[26]                          
+gpio_slow_sel[15]                          |gpio_slow_sel[15]                          
+gpio_analog_sel[31]                        |gpio_analog_sel[31]                        
+gpio_analog_sel[20]                        |gpio_analog_sel[20]                        
+gpio_analog_sel[9]                         |gpio_analog_sel[9]                         
+gpio_holdover[10]                          |gpio_holdover[10]                          
+gpio_dm2[39]                               |gpio_dm2[39]                               
+gpio_dm2[8]                                |gpio_dm2[8]                                
+gpio_dm1[9]                                |gpio_dm1[9]                                
+gpio_dm0[32]                               |gpio_dm0[32]                               
+gpio_dm0[21]                               |gpio_dm0[21]                               
+gpio_slow_sel[36]                          |gpio_slow_sel[36]                          
+gpio_slow_sel[25]                          |gpio_slow_sel[25]                          
+gpio_analog_sel[30]                        |gpio_analog_sel[30]                        
+gpio_analog_sel[19]                        |gpio_analog_sel[19]                        
+gpio_holdover[20]                          |gpio_holdover[20]                          
+gpio_holdover[9]                           |gpio_holdover[9]                           
+gpio_dm2[38]                               |gpio_dm2[38]                               
+gpio_dm2[7]                                |gpio_dm2[7]                                
+gpio_dm1[8]                                |gpio_dm1[8]                                
+gpio_dm0[31]                               |gpio_dm0[31]                               
+gpio_slow_sel[35]                          |gpio_slow_sel[35]                          
+gpio_analog_sel[29]                        |gpio_analog_sel[29]                        
+gpio_holdover[30]                          |gpio_holdover[30]                          
+gpio_holdover[19]                          |gpio_holdover[19]                          
+gpio_holdover[8]                           |gpio_holdover[8]                           
+gpio_dm2[17]                               |gpio_dm2[17]                               
+gpio_dm2[6]                                |gpio_dm2[6]                                
+gpio_dm1[7]                                |gpio_dm1[7]                                
+gpio_holdover[40]                          |gpio_holdover[40]                          
+gpio_holdover[29]                          |gpio_holdover[29]                          
+gpio_holdover[18]                          |gpio_holdover[18]                          
+gpio_holdover[7]                           |gpio_holdover[7]                           
+gpio_vtrip_sel[10]                         |gpio_vtrip_sel[10]                         
+gpio_dm2[16]                               |gpio_dm2[16]                               
+gpio_dm2[1]                                |gpio_dm2[1]                                
+gpio_ib_mode_sel[6]                        |gpio_ib_mode_sel[6]                        
+gpio_holdover[39]                          |gpio_holdover[39]                          
+gpio_holdover[28]                          |gpio_holdover[28]                          
+gpio_holdover[17]                          |gpio_holdover[17]                          
+gpio_holdover[6]                           |gpio_holdover[6]                           
+gpio_vtrip_sel[20]                         |gpio_vtrip_sel[20]                         
+gpio_vtrip_sel[9]                          |gpio_vtrip_sel[9]                          
+gpio_dm2[15]                               |gpio_dm2[15]                               
+gpio_ib_mode_sel[16]                       |gpio_ib_mode_sel[16]                       
+gpio_ib_mode_sel[5]                        |gpio_ib_mode_sel[5]                        
+gpio_holdover[38]                          |gpio_holdover[38]                          
+gpio_holdover[27]                          |gpio_holdover[27]                          
+gpio_holdover[16]                          |gpio_holdover[16]                          
+gpio_holdover[5]                           |gpio_holdover[5]                           
+gpio_vtrip_sel[30]                         |gpio_vtrip_sel[30]                         
+gpio_vtrip_sel[19]                         |gpio_vtrip_sel[19]                         
+gpio_vtrip_sel[8]                          |gpio_vtrip_sel[8]                          
+gpio_ib_mode_sel[26]                       |gpio_ib_mode_sel[26]                       
+gpio_ib_mode_sel[15]                       |gpio_ib_mode_sel[15]                       
+gpio_ib_mode_sel[4]                        |gpio_ib_mode_sel[4]                        
+gpio_holdover[37]                          |gpio_holdover[37]                          
+gpio_holdover[26]                          |gpio_holdover[26]                          
+gpio_holdover[15]                          |gpio_holdover[15]                          
+gpio_holdover[4]                           |gpio_holdover[4]                           
+gpio_vtrip_sel[40]                         |gpio_vtrip_sel[40]                         
+gpio_vtrip_sel[29]                         |gpio_vtrip_sel[29]                         
+gpio_vtrip_sel[18]                         |gpio_vtrip_sel[18]                         
+gpio_vtrip_sel[7]                          |gpio_vtrip_sel[7]                          
+gpio_ib_mode_sel[36]                       |gpio_ib_mode_sel[36]                       
+gpio_ib_mode_sel[25]                       |gpio_ib_mode_sel[25]                       
+gpio_ib_mode_sel[14]                       |gpio_ib_mode_sel[14]                       
+gpio_ib_mode_sel[3]                        |gpio_ib_mode_sel[3]                        
+gpio_holdover[36]                          |gpio_holdover[36]                          
+gpio_holdover[25]                          |gpio_holdover[25]                          
+gpio_holdover[14]                          |gpio_holdover[14]                          
+gpio_holdover[3]                           |gpio_holdover[3]                           
+gpio_analog_en[6]                          |gpio_analog_en[6]                          
+gpio_vtrip_sel[39]                         |gpio_vtrip_sel[39]                         
+gpio_vtrip_sel[28]                         |gpio_vtrip_sel[28]                         
+gpio_vtrip_sel[17]                         |gpio_vtrip_sel[17]                         
+gpio_vtrip_sel[6]                          |gpio_vtrip_sel[6]                          
+gpio_inp_dis[6]                            |gpio_inp_dis[6]                            
+gpio_ib_mode_sel[35]                       |gpio_ib_mode_sel[35]                       
+gpio_ib_mode_sel[24]                       |gpio_ib_mode_sel[24]                       
+gpio_ib_mode_sel[13]                       |gpio_ib_mode_sel[13]                       
+gpio_ib_mode_sel[2]                        |gpio_ib_mode_sel[2]                        
+gpio_holdover[35]                          |gpio_holdover[35]                          
+gpio_holdover[24]                          |gpio_holdover[24]                          
+gpio_holdover[13]                          |gpio_holdover[13]                          
+gpio_holdover[2]                           |gpio_holdover[2]                           
+gpio_analog_en[16]                         |gpio_analog_en[16]                         
+gpio_analog_en[5]                          |gpio_analog_en[5]                          
+gpio_vtrip_sel[38]                         |gpio_vtrip_sel[38]                         
+gpio_vtrip_sel[27]                         |gpio_vtrip_sel[27]                         
+gpio_vtrip_sel[16]                         |gpio_vtrip_sel[16]                         
+gpio_vtrip_sel[5]                          |gpio_vtrip_sel[5]                          
+gpio_inp_dis[16]                           |gpio_inp_dis[16]                           
+gpio_inp_dis[1]                            |gpio_inp_dis[1]                            
+gpio_ib_mode_sel[34]                       |gpio_ib_mode_sel[34]                       
+gpio_ib_mode_sel[23]                       |gpio_ib_mode_sel[23]                       
+gpio_ib_mode_sel[12]                       |gpio_ib_mode_sel[12]                       
+gpio_ib_mode_sel[1]                        |gpio_ib_mode_sel[1]                        
+gpio_holdover[34]                          |gpio_holdover[34]                          
+gpio_holdover[23]                          |gpio_holdover[23]                          
+gpio_holdover[12]                          |gpio_holdover[12]                          
+gpio_holdover[1]                           |gpio_holdover[1]                           
+gpio_analog_en[26]                         |gpio_analog_en[26]                         
+gpio_analog_en[15]                         |gpio_analog_en[15]                         
+gpio_analog_en[4]                          |gpio_analog_en[4]                          
+gpio_vtrip_sel[37]                         |gpio_vtrip_sel[37]                         
+gpio_vtrip_sel[26]                         |gpio_vtrip_sel[26]                         
+gpio_vtrip_sel[15]                         |gpio_vtrip_sel[15]                         
+gpio_vtrip_sel[4]                          |gpio_vtrip_sel[4]                          
+gpio_inp_dis[15]                           |gpio_inp_dis[15]                           
+gpio_inp_dis[0]                            |gpio_inp_dis[0]                            
+gpio_ib_mode_sel[33]                       |gpio_ib_mode_sel[33]                       
+gpio_ib_mode_sel[22]                       |gpio_ib_mode_sel[22]                       
+gpio_ib_mode_sel[11]                       |gpio_ib_mode_sel[11]                       
+gpio_ib_mode_sel[0]                        |gpio_ib_mode_sel[0]                        
+gpio_holdover[33]                          |gpio_holdover[33]                          
+gpio_holdover[22]                          |gpio_holdover[22]                          
+gpio_holdover[11]                          |gpio_holdover[11]                          
+gpio_analog_en[36]                         |gpio_analog_en[36]                         
+gpio_analog_en[25]                         |gpio_analog_en[25]                         
+gpio_analog_en[14]                         |gpio_analog_en[14]                         
+gpio_analog_en[3]                          |gpio_analog_en[3]                          
+gpio_vtrip_sel[36]                         |gpio_vtrip_sel[36]                         
+gpio_vtrip_sel[25]                         |gpio_vtrip_sel[25]                         
+gpio_vtrip_sel[14]                         |gpio_vtrip_sel[14]                         
+gpio_vtrip_sel[3]                          |gpio_vtrip_sel[3]                          
+gpio_inp_dis[14]                           |gpio_inp_dis[14]                           
+gpio_ib_mode_sel[43]                       |gpio_ib_mode_sel[43]                       
+gpio_ib_mode_sel[32]                       |gpio_ib_mode_sel[32]                       
+gpio_ib_mode_sel[21]                       |gpio_ib_mode_sel[21]                       
+gpio_ib_mode_sel[10]                       |gpio_ib_mode_sel[10]                       
+gpio_holdover[43]                          |gpio_holdover[43]                          
+gpio_holdover[32]                          |gpio_holdover[32]                          
+gpio_holdover[21]                          |gpio_holdover[21]                          
+gpio_analog_pol[2]                         |gpio_analog_pol[2]                         
+gpio_analog_en[35]                         |gpio_analog_en[35]                         
+gpio_analog_en[24]                         |gpio_analog_en[24]                         
+gpio_analog_en[13]                         |gpio_analog_en[13]                         
+gpio_analog_en[2]                          |gpio_analog_en[2]                          
+gpio_vtrip_sel[35]                         |gpio_vtrip_sel[35]                         
+gpio_vtrip_sel[24]                         |gpio_vtrip_sel[24]                         
+gpio_vtrip_sel[13]                         |gpio_vtrip_sel[13]                         
+gpio_vtrip_sel[2]                          |gpio_vtrip_sel[2]                          
+gpio_inp_dis[13]                           |gpio_inp_dis[13]                           
+gpio_ib_mode_sel[42]                       |gpio_ib_mode_sel[42]                       
+gpio_ib_mode_sel[31]                       |gpio_ib_mode_sel[31]                       
+gpio_ib_mode_sel[20]                       |gpio_ib_mode_sel[20]                       
+gpio_ib_mode_sel[9]                        |gpio_ib_mode_sel[9]                        
+gpio_holdover[42]                          |gpio_holdover[42]                          
+gpio_holdover[31]                          |gpio_holdover[31]                          
+gpio_analog_pol[12]                        |gpio_analog_pol[12]                        
+gpio_analog_pol[1]                         |gpio_analog_pol[1]                         
+gpio_analog_en[34]                         |gpio_analog_en[34]                         
+gpio_analog_en[23]                         |gpio_analog_en[23]                         
+gpio_analog_en[12]                         |gpio_analog_en[12]                         
+gpio_analog_en[1]                          |gpio_analog_en[1]                          
+gpio_vtrip_sel[34]                         |gpio_vtrip_sel[34]                         
+gpio_vtrip_sel[23]                         |gpio_vtrip_sel[23]                         
+gpio_vtrip_sel[12]                         |gpio_vtrip_sel[12]                         
+gpio_vtrip_sel[1]                          |gpio_vtrip_sel[1]                          
+gpio_inp_dis[12]                           |gpio_inp_dis[12]                           
+gpio_ib_mode_sel[41]                       |gpio_ib_mode_sel[41]                       
+gpio_ib_mode_sel[30]                       |gpio_ib_mode_sel[30]                       
+gpio_ib_mode_sel[19]                       |gpio_ib_mode_sel[19]                       
+gpio_ib_mode_sel[8]                        |gpio_ib_mode_sel[8]                        
+gpio_holdover[41]                          |gpio_holdover[41]                          
+gpio_analog_pol[11]                        |gpio_analog_pol[11]                        
+gpio_analog_pol[0]                         |gpio_analog_pol[0]                         
+gpio_analog_en[33]                         |gpio_analog_en[33]                         
+gpio_analog_en[22]                         |gpio_analog_en[22]                         
+gpio_analog_en[11]                         |gpio_analog_en[11]                         
+gpio_analog_en[0]                          |gpio_analog_en[0]                          
+gpio_vtrip_sel[33]                         |gpio_vtrip_sel[33]                         
+gpio_vtrip_sel[22]                         |gpio_vtrip_sel[22]                         
+gpio_vtrip_sel[11]                         |gpio_vtrip_sel[11]                         
+gpio_inp_dis[11]                           |gpio_inp_dis[11]                           
+gpio_ib_mode_sel[40]                       |gpio_ib_mode_sel[40]                       
+gpio_ib_mode_sel[29]                       |gpio_ib_mode_sel[29]                       
+gpio_ib_mode_sel[18]                       |gpio_ib_mode_sel[18]                       
+gpio_ib_mode_sel[7]                        |gpio_ib_mode_sel[7]                        
+gpio_analog_pol[10]                        |gpio_analog_pol[10]                        
+gpio_analog_en[43]                         |gpio_analog_en[43]                         
+gpio_analog_en[32]                         |gpio_analog_en[32]                         
+gpio_analog_en[21]                         |gpio_analog_en[21]                         
+gpio_analog_en[10]                         |gpio_analog_en[10]                         
+gpio_vtrip_sel[43]                         |gpio_vtrip_sel[43]                         
+gpio_vtrip_sel[32]                         |gpio_vtrip_sel[32]                         
+gpio_vtrip_sel[21]                         |gpio_vtrip_sel[21]                         
+gpio_inp_dis[10]                           |gpio_inp_dis[10]                           
+gpio_ib_mode_sel[39]                       |gpio_ib_mode_sel[39]                       
+gpio_ib_mode_sel[28]                       |gpio_ib_mode_sel[28]                       
+gpio_ib_mode_sel[17]                       |gpio_ib_mode_sel[17]                       
+gpio_analog_pol[9]                         |gpio_analog_pol[9]                         
+gpio_analog_en[42]                         |gpio_analog_en[42]                         
+gpio_analog_en[31]                         |gpio_analog_en[31]                         
+gpio_analog_en[20]                         |gpio_analog_en[20]                         
+gpio_analog_en[9]                          |gpio_analog_en[9]                          
+gpio_vtrip_sel[42]                         |gpio_vtrip_sel[42]                         
+gpio_vtrip_sel[31]                         |gpio_vtrip_sel[31]                         
+gpio_inp_dis[9]                            |gpio_inp_dis[9]                            
+gpio_ib_mode_sel[38]                       |gpio_ib_mode_sel[38]                       
+gpio_ib_mode_sel[27]                       |gpio_ib_mode_sel[27]                       
+gpio_analog_pol[8]                         |gpio_analog_pol[8]                         
+gpio_analog_en[41]                         |gpio_analog_en[41]                         
+gpio_analog_en[30]                         |gpio_analog_en[30]                         
+gpio_analog_en[19]                         |gpio_analog_en[19]                         
+gpio_analog_en[8]                          |gpio_analog_en[8]                          
+gpio_vtrip_sel[41]                         |gpio_vtrip_sel[41]                         
+gpio_inp_dis[8]                            |gpio_inp_dis[8]                            
+gpio_ib_mode_sel[37]                       |gpio_ib_mode_sel[37]                       
+gpio_analog_pol[7]                         |gpio_analog_pol[7]                         
+gpio_analog_en[40]                         |gpio_analog_en[40]                         
+gpio_analog_en[29]                         |gpio_analog_en[29]                         
+gpio_analog_en[18]                         |gpio_analog_en[18]                         
+gpio_analog_en[7]                          |gpio_analog_en[7]                          
+gpio_inp_dis[7]                            |gpio_inp_dis[7]                            
+gpio_analog_pol[6]                         |gpio_analog_pol[6]                         
+gpio_analog_en[39]                         |gpio_analog_en[39]                         
+gpio_analog_en[28]                         |gpio_analog_en[28]                         
+gpio_analog_en[17]                         |gpio_analog_en[17]                         
+gpio_analog_pol[5]                         |gpio_analog_pol[5]                         
+gpio_analog_en[38]                         |gpio_analog_en[38]                         
+gpio_analog_en[27]                         |gpio_analog_en[27]                         
+gpio_inp_dis[42]                           |gpio_inp_dis[42]                           
+gpio_analog_pol[4]                         |gpio_analog_pol[4]                         
+gpio_analog_en[37]                         |gpio_analog_en[37]                         
+gpio_oeb[14]                               |gpio_oeb[14]                               
+gpio_inp_dis[41]                           |gpio_inp_dis[41]                           
+gpio_analog_pol[3]                         |gpio_analog_pol[3]                         
+gpio_oeb[28]                               |gpio_oeb[28]                               
+gpio_oeb[13]                               |gpio_oeb[13]                               
+gpio_inp_dis[40]                           |gpio_inp_dis[40]                           
+gpio_out[0]                                |gpio_out[0]                                
+gpio_oeb[27]                               |gpio_oeb[27]                               
+gpio_oeb[12]                               |gpio_oeb[12]                               
+gpio_inp_dis[39]                           |gpio_inp_dis[39]                           
+gpio_analog_pol[22]                        |gpio_analog_pol[22]                        
+gpio_out[38]                               |gpio_out[38]                               
+gpio_oeb[37]                               |gpio_oeb[37]                               
+gpio_oeb[26]                               |gpio_oeb[26]                               
+gpio_oeb[11]                               |gpio_oeb[11]                               
+gpio_inp_dis[38]                           |gpio_inp_dis[38]                           
+vssd1                                      |vssd1                                      
+vccd1                                      |vccd1                                      
+gpio_in[10]                                |gpio_in[10]                                
+gpio_in[11]                                |gpio_in[11]                                
+gpio_in[12]                                |gpio_in[12]                                
+gpio_in[13]                                |gpio_in[13]                                
+gpio_in[14]                                |gpio_in[14]                                
+gpio_in[15]                                |gpio_in[15]                                
+gpio_in[16]                                |gpio_in[16]                                
+gpio_in[17]                                |gpio_in[17]                                
+gpio_in[18]                                |gpio_in[18]                                
+gpio_in[19]                                |gpio_in[19]                                
+gpio_in[1]                                 |gpio_in[1]                                 
+gpio_in[20]                                |gpio_in[20]                                
+gpio_in[21]                                |gpio_in[21]                                
+gpio_in[22]                                |gpio_in[22]                                
+gpio_in[23]                                |gpio_in[23]                                
+gpio_in[24]                                |gpio_in[24]                                
+gpio_in[25]                                |gpio_in[25]                                
+gpio_in[26]                                |gpio_in[26]                                
+gpio_in[27]                                |gpio_in[27]                                
+gpio_in[28]                                |gpio_in[28]                                
+gpio_in[29]                                |gpio_in[29]                                
+gpio_in[2]                                 |gpio_in[2]                                 
+gpio_in[30]                                |gpio_in[30]                                
+gpio_in[31]                                |gpio_in[31]                                
+gpio_in[32]                                |gpio_in[32]                                
+gpio_in[33]                                |gpio_in[33]                                
+gpio_in[34]                                |gpio_in[34]                                
+gpio_in[35]                                |gpio_in[35]                                
+gpio_in[36]                                |gpio_in[36]                                
+gpio_in[37]                                |gpio_in[37]                                
+gpio_in[39]                                |gpio_in[39]                                
+gpio_in[3]                                 |gpio_in[3]                                 
+gpio_in[40]                                |gpio_in[40]                                
+gpio_in[41]                                |gpio_in[41]                                
+gpio_in[42]                                |gpio_in[42]                                
+gpio_in[43]                                |gpio_in[43]                                
+gpio_in[4]                                 |gpio_in[4]                                 
+gpio_in[5]                                 |gpio_in[5]                                 
+gpio_in[6]                                 |gpio_in[6]                                 
+gpio_in[7]                                 |gpio_in[7]                                 
+gpio_in[8]                                 |gpio_in[8]                                 
+gpio_in[9]                                 |gpio_in[9]                                 
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes counter_gpio_config_example and counter_gpio_config_example are equivalent.
+
+Final result: Circuits match uniquely.
+.

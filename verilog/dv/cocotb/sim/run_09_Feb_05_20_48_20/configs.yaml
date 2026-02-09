@@ -1,0 +1,6 @@
+clock: 25
+max_err: 3
+PDK: sky130
+CARAVEL_ROOT: /home/marwan/webinar_demo/caravel
+PDK_ROOT: /home/marwan/webinar_demo/dependencies/pdks/sky130A
+OPENFRAME: true

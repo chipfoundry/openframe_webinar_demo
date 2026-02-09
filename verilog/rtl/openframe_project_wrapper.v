@@ -84,7 +84,7 @@ module openframe_project_wrapper (
     output [`OPENFRAME_IO_PADS-1:0] gpio_dm1,
     output [`OPENFRAME_IO_PADS-1:0] gpio_dm0,
 
-    /* These signals correct directly to the pad.  Pads using analog I/O
+    /* These signals connect directly to the pad.  Pads using analog I/O
      * connections should keep the digital input and output buffers turned
      * off.  Both signals connect to the same pad.  The "noesd" signal
      * is a direct connection to the pad;  the other signal connects through
@@ -103,35 +103,41 @@ module openframe_project_wrapper (
     input  [`OPENFRAME_IO_PADS-1:0] gpio_loopback_zero
 );
 
-	user_proj_timer mprj (
-`ifdef USE_POWER_PINS
-		.vccd1(vccd1),
-		.vssd1(vssd1),
-`endif
-        .wb_clk_i(gpio_in[0]),
-        .wb_rst_i(gpio_in[1]),
-        .io_in(gpio_in[12:2]),
-        .io_out(gpio_out[12:2]),
-        .io_oeb(gpio_oeb[12:2])
+    //=========================================================================
+    // User Project Instance
+    //=========================================================================
+    counter_gpio_config_example mprj (
+    `ifdef USE_POWER_PINS
+        .vccd1(vccd1),
+        .vssd1(vssd1),
+    `endif
+        .resetb_l(resetb_l),
 
-	    /* NOTE:  Openframe signals not used in picosoc:	*/
-	    /* porb_h:    3.3V domain signal			*/
-	    /* resetb_h:  3.3V domain signal			*/
-	    /* gpio_in_h: 3.3V domain signals			*/
-	    /* analog_io: analog signals			*/
-	    /* analog_noesd_io: analog signals			*/
-	);
+        // GPIO interface
+        .gpio_in(gpio_in),
+        .gpio_out(gpio_out),
+        .gpio_oeb(gpio_oeb),
+        .gpio_inp_dis(gpio_inp_dis),
 
-	/* All analog enable/select/polarity and holdover bits	*/
-	/* will not be handled in the picosoc module.  Tie	*/
-	/* each one of them off to the local loopback zero bit.	*/
+        // GPIO pad configuration
+        .gpio_ib_mode_sel(gpio_ib_mode_sel),
+        .gpio_vtrip_sel(gpio_vtrip_sel),
+        .gpio_slow_sel(gpio_slow_sel),
+        .gpio_holdover(gpio_holdover),
+        .gpio_analog_en(gpio_analog_en),
+        .gpio_analog_sel(gpio_analog_sel),
+        .gpio_analog_pol(gpio_analog_pol),
+        .gpio_dm2(gpio_dm2),
+        .gpio_dm1(gpio_dm1),
+        .gpio_dm0(gpio_dm0)
+    );
 
-	assign gpio_analog_en = gpio_loopback_zero;
-	assign gpio_analog_pol = gpio_loopback_zero;
-	assign gpio_analog_sel = gpio_loopback_zero;
-	assign gpio_holdover = gpio_loopback_zero;
+    //=========================================================================
+    // Power connections
+    //=========================================================================
+    (* keep *) vccd1_connection vccd1_connection ();
+    (* keep *) vssd1_connection vssd1_connection ();
 
-	(* keep *) vccd1_connection vccd1_connection ();
-	(* keep *) vssd1_connection vssd1_connection ();
+endmodule
 
-endmodule	// openframe_project_wrapper
+`default_nettype wire

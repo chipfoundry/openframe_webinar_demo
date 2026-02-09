@@ -1,0 +1,131 @@
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= min_tt_025C_1v80 Corner ===================================
+
+Startpoint: gpio_in[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: gpio_oeb[21] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.313114    0.687275    0.534947    2.534947 v gpio_in[0] (in)
+                                                         gpio_in[0] (net)
+                      0.694689    0.000000    2.534947 v mprj/gpio_in[0] (counter_gpio_config_example)
+     1    0.629412    2.763707    2.134938    4.669885 ^ mprj/gpio_oeb[21] (counter_gpio_config_example)
+                                                         gpio_oeb[21] (net)
+                      3.845736    1.330741    6.000626 ^ gpio_oeb[21] (out)
+                                              6.000626   data arrival time
+
+                      0.000000   10.000000   10.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -6.000626   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.749374   slack (MET)
+
+
+Startpoint: gpio_in[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: gpio_oeb[18] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.313114    0.687275    0.534947    2.534947 v gpio_in[0] (in)
+                                                         gpio_in[0] (net)
+                      0.694689    0.000000    2.534947 v mprj/gpio_in[0] (counter_gpio_config_example)
+     1    0.620657    2.909995    2.149356    4.684304 ^ mprj/gpio_oeb[18] (counter_gpio_config_example)
+                                                         gpio_oeb[18] (net)
+                      3.679835    1.174286    5.858590 ^ gpio_oeb[18] (out)
+                                              5.858590   data arrival time
+
+                      0.000000   10.000000   10.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.858590   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.891410   slack (MET)
+
+
+Startpoint: gpio_in[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: gpio_oeb[19] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.313114    0.687275    0.534947    2.534947 v gpio_in[0] (in)
+                                                         gpio_in[0] (net)
+                      0.694689    0.000000    2.534947 v mprj/gpio_in[0] (counter_gpio_config_example)
+     1    0.628576    2.937010    2.417405    4.952352 ^ mprj/gpio_oeb[19] (counter_gpio_config_example)
+                                                         gpio_oeb[19] (net)
+                      3.324123    0.807339    5.759691 ^ gpio_oeb[19] (out)
+                                              5.759691   data arrival time
+
+                      0.000000   10.000000   10.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.759691   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.990309   slack (MET)
+
+
+Startpoint: gpio_in[0] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: gpio_oeb[20] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.313114    0.687275    0.534947    2.534947 v gpio_in[0] (in)
+                                                         gpio_in[0] (net)
+                      0.694689    0.000000    2.534947 v mprj/gpio_in[0] (counter_gpio_config_example)
+     1    0.597555    2.842739    2.579807    5.114755 ^ mprj/gpio_oeb[20] (counter_gpio_config_example)
+                                                         gpio_oeb[20] (net)
+                      2.869126    0.221714    5.336468 ^ gpio_oeb[20] (out)
+                                              5.336468   data arrival time
+
+                      0.000000   10.000000   10.000000   clock __VIRTUAL_CLK__ (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.336468   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.413532   slack (MET)
+
+
+

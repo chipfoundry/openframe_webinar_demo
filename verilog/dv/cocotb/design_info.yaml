@@ -1,0 +1,9 @@
+CARAVEL_ROOT: /home/marwan/webinar_demo/caravel
+MCW_ROOT: null
+PDK: sky130A
+PDK_ROOT: /home/marwan/webinar_demo/dependencies/pdks
+USER_PROJECT_ROOT: /home/marwan/webinar_demo
+caravan: false
+clk: 25
+emailto:
+- null

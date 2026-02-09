@@ -1,0 +1,1262 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+Startpoint: resetb_l (input port clocked by gpio_in[38])
+Endpoint: _094_ (recovery check against rising-edge clock gpio_in[38])
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock gpio_in[38] (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  5.000000    5.000000 ^ input external delay
+     2    0.009152    0.047669    0.031389    5.031389 ^ resetb_l (in)
+                                                         resetb_l (net)
+                      0.047674    0.000000    5.031389 ^ input2/A (sky130_fd_sc_hd__buf_8)
+    11    0.139992    0.217581    0.196445    5.227834 ^ input2/X (sky130_fd_sc_hd__buf_8)
+                                                         net2 (net)
+                      0.217658    0.003762    5.231596 ^ fanout31/A (sky130_fd_sc_hd__clkbuf_16)
+    33    0.199344    0.199161    0.273464    5.505060 ^ fanout31/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         net31 (net)
+                      0.279069    0.098846    5.603906 ^ _094_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+                                              5.603906   data arrival time
+
+                                 25.000000   25.000000   clock gpio_in[38] (rise edge)
+                                  0.000000   25.000000   clock source latency
+     2    0.100454    0.457024    0.337565   25.337564 ^ gpio_in[38] (in)
+                                                         gpio_in[38] (net)
+                      0.465885    0.000000   25.337564 ^ clkbuf_0_gpio_in[38]/A (sky130_fd_sc_hd__clkbuf_16)
+     5    0.068250    0.092165    0.271113   25.608677 ^ clkbuf_0_gpio_in[38]/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_gpio_in[38] (net)
+                      0.093149    0.007446   25.616123 ^ clkbuf_1_1__f_gpio_in[38]/A (sky130_fd_sc_hd__clkbuf_16)
+    19    0.072851    0.091062    0.176970   25.793093 ^ clkbuf_1_1__f_gpio_in[38]/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_1_1__leaf_gpio_in[38] (net)
+                      0.096306    0.016874   25.809967 ^ _094_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                 -0.250000   25.559967   clock uncertainty
+                                  0.000000   25.559967   clock reconvergence pessimism
+                                  0.185951   25.745918   library recovery time
+                                             25.745918   data required time
+---------------------------------------------------------------------------------------------
+                                             25.745918   data required time
+                                             -5.603906   data arrival time
+---------------------------------------------------------------------------------------------
+                                             20.142012   slack (MET)
+
+
+Startpoint: gpio_in[0] (input port clocked by gpio_in[38])
+Endpoint: gpio_oeb[21] (output port clocked by gpio_in[38])
+Path Group: gpio_in[38]
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock gpio_in[38] (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  5.000000    5.000000 v input external delay
+     2    0.003998    0.011413    0.006494    5.006495 v gpio_in[0] (in)
+                                                         gpio_in[0] (net)
+                      0.011416    0.000000    5.006495 v input1/A (sky130_fd_sc_hd__clkbuf_4)
+     3    0.050257    0.110805    0.185592    5.192087 v input1/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net1 (net)
+                      0.113415    0.013558    5.205645 v _044_/A (sky130_fd_sc_hd__inv_2)
+     9    0.049956    0.229010    0.212473    5.418118 ^ _044_/Y (sky130_fd_sc_hd__inv_2)
+                                                         bidir_oeb (net)
+                      0.230052    0.012588    5.430706 ^ _654_/A (sky130_fd_sc_hd__clkbuf_1)
+     1    0.006102    0.081732    0.143575    5.574280 ^ _654_/X (sky130_fd_sc_hd__clkbuf_1)
+                                                         net6 (net)
+                      0.081732    0.000345    5.574625 ^ output6/A (sky130_fd_sc_hd__buf_2)
+     1    0.034449    0.171371    0.211555    5.786180 ^ output6/X (sky130_fd_sc_hd__buf_2)
+                                                         gpio_oeb[21] (net)
+                      0.171444    0.001613    5.787794 ^ gpio_oeb[21] (out)
+                                              5.787794   data arrival time
+
+                                 25.000000   25.000000   clock gpio_in[38] (rise edge)
+                                  0.000000   25.000000   clock network delay (propagated)
+                                 -0.250000   24.750000   clock uncertainty
+                                  0.000000   24.750000   clock reconvergence pessimism
+                                 -5.000000   19.750000   output external delay
+                                             19.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             19.750000   data required time
+                                             -5.787794   data arrival time
+---------------------------------------------------------------------------------------------
+                                             13.962206   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+fanout31/X                               16     33    -17 (VIOLATED)
+clkbuf_1_0__f_gpio_in[38]/X              16     25     -9 (VIOLATED)
+clkbuf_1_1__f_gpio_in[38]/X              16     19     -3 (VIOLATED)
+_049_/X                                  16     17        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 587 unannotated drivers.
+ gpio_in[10]
+ gpio_in[11]
+ gpio_in[12]
+ gpio_in[13]
+ gpio_in[14]
+ gpio_in[15]
+ gpio_in[16]
+ gpio_in[17]
+ gpio_in[18]
+ gpio_in[19]
+ gpio_in[1]
+ gpio_in[20]
+ gpio_in[21]
+ gpio_in[22]
+ gpio_in[23]
+ gpio_in[24]
+ gpio_in[25]
+ gpio_in[26]
+ gpio_in[27]
+ gpio_in[28]
+ gpio_in[29]
+ gpio_in[2]
+ gpio_in[30]
+ gpio_in[31]
+ gpio_in[32]
+ gpio_in[33]
+ gpio_in[34]
+ gpio_in[35]
+ gpio_in[36]
+ gpio_in[37]
+ gpio_in[39]
+ gpio_in[3]
+ gpio_in[40]
+ gpio_in[41]
+ gpio_in[42]
+ gpio_in[43]
+ gpio_in[4]
+ gpio_in[5]
+ gpio_in[6]
+ gpio_in[7]
+ gpio_in[8]
+ gpio_in[9]
+ clkload0/Y
+ counter_gpio_config_example_100/HI
+ counter_gpio_config_example_101/HI
+ counter_gpio_config_example_102/HI
+ counter_gpio_config_example_103/HI
+ counter_gpio_config_example_104/HI
+ counter_gpio_config_example_105/HI
+ counter_gpio_config_example_106/HI
+ counter_gpio_config_example_107/HI
+ counter_gpio_config_example_108/HI
+ counter_gpio_config_example_109/HI
+ counter_gpio_config_example_110/HI
+ counter_gpio_config_example_111/HI
+ counter_gpio_config_example_112/HI
+ counter_gpio_config_example_113/HI
+ counter_gpio_config_example_114/HI
+ counter_gpio_config_example_115/HI
+ counter_gpio_config_example_116/HI
+ counter_gpio_config_example_117/HI
+ counter_gpio_config_example_118/HI
+ counter_gpio_config_example_119/HI
+ counter_gpio_config_example_120/HI
+ counter_gpio_config_example_121/HI
+ counter_gpio_config_example_122/HI
+ counter_gpio_config_example_123/HI
+ counter_gpio_config_example_124/HI
+ counter_gpio_config_example_125/HI
+ counter_gpio_config_example_126/HI
+ counter_gpio_config_example_127/HI
+ counter_gpio_config_example_128/HI
+ counter_gpio_config_example_129/HI
+ counter_gpio_config_example_130/HI
+ counter_gpio_config_example_131/HI
+ counter_gpio_config_example_132/HI
+ counter_gpio_config_example_133/HI
+ counter_gpio_config_example_134/HI
+ counter_gpio_config_example_135/HI
+ counter_gpio_config_example_136/HI
+ counter_gpio_config_example_137/HI
+ counter_gpio_config_example_138/HI
+ counter_gpio_config_example_139/HI
+ counter_gpio_config_example_140/HI
+ counter_gpio_config_example_141/HI
+ counter_gpio_config_example_142/HI
+ counter_gpio_config_example_143/HI
+ counter_gpio_config_example_144/HI
+ counter_gpio_config_example_145/HI
+ counter_gpio_config_example_146/HI
+ counter_gpio_config_example_147/HI
+ counter_gpio_config_example_148/HI
+ counter_gpio_config_example_149/HI
+ counter_gpio_config_example_150/HI
+ counter_gpio_config_example_151/HI
+ counter_gpio_config_example_152/HI
+ counter_gpio_config_example_153/HI
+ counter_gpio_config_example_154/HI
+ counter_gpio_config_example_155/HI
+ counter_gpio_config_example_156/HI
+ counter_gpio_config_example_157/HI
+ counter_gpio_config_example_158/HI
+ counter_gpio_config_example_159/HI
+ counter_gpio_config_example_160/HI
+ counter_gpio_config_example_161/HI
+ counter_gpio_config_example_162/HI
+ counter_gpio_config_example_163/HI
+ counter_gpio_config_example_164/HI
+ counter_gpio_config_example_165/HI
+ counter_gpio_config_example_166/HI
+ counter_gpio_config_example_167/HI
+ counter_gpio_config_example_168/HI
+ counter_gpio_config_example_169/HI
+ counter_gpio_config_example_170/HI
+ counter_gpio_config_example_171/HI
+ counter_gpio_config_example_172/HI
+ counter_gpio_config_example_173/HI
+ counter_gpio_config_example_174/HI
+ counter_gpio_config_example_175/HI
+ counter_gpio_config_example_176/HI
+ counter_gpio_config_example_177/HI
+ counter_gpio_config_example_178/HI
+ counter_gpio_config_example_179/HI
+ counter_gpio_config_example_180/HI
+ counter_gpio_config_example_181/HI
+ counter_gpio_config_example_182/HI
+ counter_gpio_config_example_183/HI
+ counter_gpio_config_example_184/HI
+ counter_gpio_config_example_185/HI
+ counter_gpio_config_example_186/HI
+ counter_gpio_config_example_187/HI
+ counter_gpio_config_example_188/HI
+ counter_gpio_config_example_189/HI
+ counter_gpio_config_example_190/HI
+ counter_gpio_config_example_191/HI
+ counter_gpio_config_example_192/HI
+ counter_gpio_config_example_193/HI
+ counter_gpio_config_example_194/HI
+ counter_gpio_config_example_195/HI
+ counter_gpio_config_example_196/HI
+ counter_gpio_config_example_197/HI
+ counter_gpio_config_example_198/HI
+ counter_gpio_config_example_199/HI
+ counter_gpio_config_example_200/HI
+ counter_gpio_config_example_201/HI
+ counter_gpio_config_example_202/HI
+ counter_gpio_config_example_203/HI
+ counter_gpio_config_example_204/HI
+ counter_gpio_config_example_205/HI
+ counter_gpio_config_example_206/HI
+ counter_gpio_config_example_207/HI
+ counter_gpio_config_example_208/HI
+ counter_gpio_config_example_209/HI
+ counter_gpio_config_example_210/HI
+ counter_gpio_config_example_211/HI
+ counter_gpio_config_example_212/HI
+ counter_gpio_config_example_213/HI
+ counter_gpio_config_example_214/HI
+ counter_gpio_config_example_215/HI
+ counter_gpio_config_example_216/HI
+ counter_gpio_config_example_217/HI
+ counter_gpio_config_example_218/HI
+ counter_gpio_config_example_219/HI
+ counter_gpio_config_example_220/HI
+ counter_gpio_config_example_221/HI
+ counter_gpio_config_example_222/HI
+ counter_gpio_config_example_223/HI
+ counter_gpio_config_example_224/HI
+ counter_gpio_config_example_225/HI
+ counter_gpio_config_example_226/HI
+ counter_gpio_config_example_227/HI
+ counter_gpio_config_example_228/HI
+ counter_gpio_config_example_229/HI
+ counter_gpio_config_example_230/HI
+ counter_gpio_config_example_231/HI
+ counter_gpio_config_example_232/HI
+ counter_gpio_config_example_233/HI
+ counter_gpio_config_example_234/HI
+ counter_gpio_config_example_235/HI
+ counter_gpio_config_example_236/HI
+ counter_gpio_config_example_237/HI
+ counter_gpio_config_example_238/HI
+ counter_gpio_config_example_239/HI
+ counter_gpio_config_example_240/HI
+ counter_gpio_config_example_241/HI
+ counter_gpio_config_example_242/HI
+ counter_gpio_config_example_243/HI
+ counter_gpio_config_example_244/HI
+ counter_gpio_config_example_245/HI
+ counter_gpio_config_example_246/HI
+ counter_gpio_config_example_247/HI
+ counter_gpio_config_example_248/HI
+ counter_gpio_config_example_249/HI
+ counter_gpio_config_example_250/HI
+ counter_gpio_config_example_251/HI
+ counter_gpio_config_example_252/HI
+ counter_gpio_config_example_253/HI
+ counter_gpio_config_example_254/HI
+ counter_gpio_config_example_255/HI
+ counter_gpio_config_example_256/HI
+ counter_gpio_config_example_257/HI
+ counter_gpio_config_example_258/HI
+ counter_gpio_config_example_259/HI
+ counter_gpio_config_example_260/HI
+ counter_gpio_config_example_261/HI
+ counter_gpio_config_example_262/HI
+ counter_gpio_config_example_263/HI
+ counter_gpio_config_example_264/HI
+ counter_gpio_config_example_265/HI
+ counter_gpio_config_example_266/HI
+ counter_gpio_config_example_267/HI
+ counter_gpio_config_example_268/HI
+ counter_gpio_config_example_269/HI
+ counter_gpio_config_example_270/HI
+ counter_gpio_config_example_271/HI
+ counter_gpio_config_example_272/HI
+ counter_gpio_config_example_273/HI
+ counter_gpio_config_example_274/HI
+ counter_gpio_config_example_275/HI
+ counter_gpio_config_example_276/HI
+ counter_gpio_config_example_277/HI
+ counter_gpio_config_example_278/HI
+ counter_gpio_config_example_279/HI
+ counter_gpio_config_example_280/HI
+ counter_gpio_config_example_281/HI
+ counter_gpio_config_example_282/HI
+ counter_gpio_config_example_283/HI
+ counter_gpio_config_example_284/HI
+ counter_gpio_config_example_285/HI
+ counter_gpio_config_example_286/HI
+ counter_gpio_config_example_287/HI
+ counter_gpio_config_example_288/HI
+ counter_gpio_config_example_289/HI
+ counter_gpio_config_example_290/HI
+ counter_gpio_config_example_291/HI
+ counter_gpio_config_example_292/HI
+ counter_gpio_config_example_293/HI
+ counter_gpio_config_example_294/HI
+ counter_gpio_config_example_295/HI
+ counter_gpio_config_example_296/HI
+ counter_gpio_config_example_297/HI
+ counter_gpio_config_example_298/HI
+ counter_gpio_config_example_299/HI
+ counter_gpio_config_example_300/HI
+ counter_gpio_config_example_301/HI
+ counter_gpio_config_example_302/HI
+ counter_gpio_config_example_303/HI
+ counter_gpio_config_example_304/HI
+ counter_gpio_config_example_305/HI
+ counter_gpio_config_example_306/HI
+ counter_gpio_config_example_307/HI
+ counter_gpio_config_example_308/HI
+ counter_gpio_config_example_309/HI
+ counter_gpio_config_example_310/HI
+ counter_gpio_config_example_311/HI
+ counter_gpio_config_example_312/HI
+ counter_gpio_config_example_313/HI
+ counter_gpio_config_example_314/HI
+ counter_gpio_config_example_315/HI
+ counter_gpio_config_example_316/HI
+ counter_gpio_config_example_317/HI
+ counter_gpio_config_example_318/HI
+ counter_gpio_config_example_319/HI
+ counter_gpio_config_example_32/HI
+ counter_gpio_config_example_320/HI
+ counter_gpio_config_example_321/HI
+ counter_gpio_config_example_322/HI
+ counter_gpio_config_example_323/HI
+ counter_gpio_config_example_324/HI
+ counter_gpio_config_example_325/HI
+ counter_gpio_config_example_326/HI
+ counter_gpio_config_example_327/HI
+ counter_gpio_config_example_328/HI
+ counter_gpio_config_example_329/HI
+ counter_gpio_config_example_33/HI
+ counter_gpio_config_example_330/HI
+ counter_gpio_config_example_331/HI
+ counter_gpio_config_example_332/HI
+ counter_gpio_config_example_333/HI
+ counter_gpio_config_example_334/HI
+ counter_gpio_config_example_335/HI
+ counter_gpio_config_example_336/HI
+ counter_gpio_config_example_337/HI
+ counter_gpio_config_example_338/HI
+ counter_gpio_config_example_339/HI
+ counter_gpio_config_example_34/HI
+ counter_gpio_config_example_340/HI
+ counter_gpio_config_example_341/HI
+ counter_gpio_config_example_342/HI
+ counter_gpio_config_example_343/HI
+ counter_gpio_config_example_344/HI
+ counter_gpio_config_example_345/HI
+ counter_gpio_config_example_346/HI
+ counter_gpio_config_example_347/HI
+ counter_gpio_config_example_348/HI
+ counter_gpio_config_example_349/HI
+ counter_gpio_config_example_35/HI
+ counter_gpio_config_example_350/HI
+ counter_gpio_config_example_351/HI
+ counter_gpio_config_example_352/HI
+ counter_gpio_config_example_353/HI
+ counter_gpio_config_example_354/HI
+ counter_gpio_config_example_355/HI
+ counter_gpio_config_example_356/HI
+ counter_gpio_config_example_357/HI
+ counter_gpio_config_example_358/HI
+ counter_gpio_config_example_359/HI
+ counter_gpio_config_example_36/HI
+ counter_gpio_config_example_360/HI
+ counter_gpio_config_example_361/HI
+ counter_gpio_config_example_362/HI
+ counter_gpio_config_example_363/HI
+ counter_gpio_config_example_364/HI
+ counter_gpio_config_example_365/HI
+ counter_gpio_config_example_366/HI
+ counter_gpio_config_example_367/HI
+ counter_gpio_config_example_368/HI
+ counter_gpio_config_example_369/HI
+ counter_gpio_config_example_37/HI
+ counter_gpio_config_example_370/HI
+ counter_gpio_config_example_371/HI
+ counter_gpio_config_example_372/HI
+ counter_gpio_config_example_373/HI
+ counter_gpio_config_example_374/HI
+ counter_gpio_config_example_375/HI
+ counter_gpio_config_example_376/HI
+ counter_gpio_config_example_377/HI
+ counter_gpio_config_example_378/HI
+ counter_gpio_config_example_379/HI
+ counter_gpio_config_example_38/HI
+ counter_gpio_config_example_380/HI
+ counter_gpio_config_example_381/HI
+ counter_gpio_config_example_382/HI
+ counter_gpio_config_example_383/HI
+ counter_gpio_config_example_384/HI
+ counter_gpio_config_example_385/HI
+ counter_gpio_config_example_386/HI
+ counter_gpio_config_example_387/HI
+ counter_gpio_config_example_388/HI
+ counter_gpio_config_example_389/HI
+ counter_gpio_config_example_39/HI
+ counter_gpio_config_example_390/HI
+ counter_gpio_config_example_391/HI
+ counter_gpio_config_example_392/HI
+ counter_gpio_config_example_393/HI
+ counter_gpio_config_example_394/HI
+ counter_gpio_config_example_395/HI
+ counter_gpio_config_example_396/HI
+ counter_gpio_config_example_397/HI
+ counter_gpio_config_example_398/HI
+ counter_gpio_config_example_399/HI
+ counter_gpio_config_example_40/HI
+ counter_gpio_config_example_400/HI
+ counter_gpio_config_example_401/HI
+ counter_gpio_config_example_402/HI
+ counter_gpio_config_example_403/HI
+ counter_gpio_config_example_404/HI
+ counter_gpio_config_example_405/HI
+ counter_gpio_config_example_406/HI
+ counter_gpio_config_example_407/HI
+ counter_gpio_config_example_408/HI
+ counter_gpio_config_example_409/HI
+ counter_gpio_config_example_41/HI
+ counter_gpio_config_example_410/HI
+ counter_gpio_config_example_411/HI
+ counter_gpio_config_example_412/HI
+ counter_gpio_config_example_413/HI
+ counter_gpio_config_example_414/HI
+ counter_gpio_config_example_415/HI
+ counter_gpio_config_example_416/HI
+ counter_gpio_config_example_417/HI
+ counter_gpio_config_example_418/HI
+ counter_gpio_config_example_419/HI
+ counter_gpio_config_example_42/HI
+ counter_gpio_config_example_420/HI
+ counter_gpio_config_example_421/HI
+ counter_gpio_config_example_422/HI
+ counter_gpio_config_example_423/HI
+ counter_gpio_config_example_424/HI
+ counter_gpio_config_example_425/HI
+ counter_gpio_config_example_426/HI
+ counter_gpio_config_example_427/HI
+ counter_gpio_config_example_428/HI
+ counter_gpio_config_example_429/HI
+ counter_gpio_config_example_43/HI
+ counter_gpio_config_example_430/HI
+ counter_gpio_config_example_431/HI
+ counter_gpio_config_example_432/HI
+ counter_gpio_config_example_433/HI
+ counter_gpio_config_example_434/HI
+ counter_gpio_config_example_435/HI
+ counter_gpio_config_example_436/HI
+ counter_gpio_config_example_437/HI
+ counter_gpio_config_example_438/HI
+ counter_gpio_config_example_439/HI
+ counter_gpio_config_example_44/HI
+ counter_gpio_config_example_440/HI
+ counter_gpio_config_example_441/HI
+ counter_gpio_config_example_442/HI
+ counter_gpio_config_example_443/HI
+ counter_gpio_config_example_444/HI
+ counter_gpio_config_example_445/HI
+ counter_gpio_config_example_446/HI
+ counter_gpio_config_example_447/HI
+ counter_gpio_config_example_448/HI
+ counter_gpio_config_example_449/HI
+ counter_gpio_config_example_45/HI
+ counter_gpio_config_example_450/HI
+ counter_gpio_config_example_451/HI
+ counter_gpio_config_example_452/HI
+ counter_gpio_config_example_453/HI
+ counter_gpio_config_example_454/HI
+ counter_gpio_config_example_455/HI
+ counter_gpio_config_example_456/HI
+ counter_gpio_config_example_457/HI
+ counter_gpio_config_example_458/HI
+ counter_gpio_config_example_459/HI
+ counter_gpio_config_example_46/HI
+ counter_gpio_config_example_460/HI
+ counter_gpio_config_example_461/HI
+ counter_gpio_config_example_462/HI
+ counter_gpio_config_example_463/HI
+ counter_gpio_config_example_464/HI
+ counter_gpio_config_example_465/HI
+ counter_gpio_config_example_466/HI
+ counter_gpio_config_example_467/HI
+ counter_gpio_config_example_468/LO
+ counter_gpio_config_example_469/LO
+ counter_gpio_config_example_47/HI
+ counter_gpio_config_example_470/LO
+ counter_gpio_config_example_471/LO
+ counter_gpio_config_example_472/LO
+ counter_gpio_config_example_473/LO
+ counter_gpio_config_example_474/LO
+ counter_gpio_config_example_475/LO
+ counter_gpio_config_example_476/LO
+ counter_gpio_config_example_477/LO
+ counter_gpio_config_example_478/LO
+ counter_gpio_config_example_479/LO
+ counter_gpio_config_example_48/HI
+ counter_gpio_config_example_480/LO
+ counter_gpio_config_example_481/LO
+ counter_gpio_config_example_482/LO
+ counter_gpio_config_example_483/LO
+ counter_gpio_config_example_484/LO
+ counter_gpio_config_example_485/LO
+ counter_gpio_config_example_486/LO
+ counter_gpio_config_example_487/LO
+ counter_gpio_config_example_488/LO
+ counter_gpio_config_example_489/LO
+ counter_gpio_config_example_49/HI
+ counter_gpio_config_example_490/LO
+ counter_gpio_config_example_491/LO
+ counter_gpio_config_example_492/LO
+ counter_gpio_config_example_493/LO
+ counter_gpio_config_example_494/LO
+ counter_gpio_config_example_495/LO
+ counter_gpio_config_example_496/LO
+ counter_gpio_config_example_497/LO
+ counter_gpio_config_example_498/LO
+ counter_gpio_config_example_499/LO
+ counter_gpio_config_example_50/HI
+ counter_gpio_config_example_500/LO
+ counter_gpio_config_example_501/LO
+ counter_gpio_config_example_502/LO
+ counter_gpio_config_example_503/LO
+ counter_gpio_config_example_504/LO
+ counter_gpio_config_example_505/LO
+ counter_gpio_config_example_506/LO
+ counter_gpio_config_example_507/LO
+ counter_gpio_config_example_508/LO
+ counter_gpio_config_example_509/LO
+ counter_gpio_config_example_51/HI
+ counter_gpio_config_example_510/LO
+ counter_gpio_config_example_511/LO
+ counter_gpio_config_example_512/LO
+ counter_gpio_config_example_513/LO
+ counter_gpio_config_example_514/LO
+ counter_gpio_config_example_515/LO
+ counter_gpio_config_example_516/LO
+ counter_gpio_config_example_517/LO
+ counter_gpio_config_example_518/LO
+ counter_gpio_config_example_519/LO
+ counter_gpio_config_example_52/HI
+ counter_gpio_config_example_520/LO
+ counter_gpio_config_example_521/LO
+ counter_gpio_config_example_522/LO
+ counter_gpio_config_example_523/LO
+ counter_gpio_config_example_524/LO
+ counter_gpio_config_example_525/LO
+ counter_gpio_config_example_526/LO
+ counter_gpio_config_example_527/LO
+ counter_gpio_config_example_528/LO
+ counter_gpio_config_example_529/LO
+ counter_gpio_config_example_53/HI
+ counter_gpio_config_example_530/LO
+ counter_gpio_config_example_531/LO
+ counter_gpio_config_example_532/LO
+ counter_gpio_config_example_533/LO
+ counter_gpio_config_example_534/LO
+ counter_gpio_config_example_535/LO
+ counter_gpio_config_example_536/LO
+ counter_gpio_config_example_537/LO
+ counter_gpio_config_example_538/LO
+ counter_gpio_config_example_539/LO
+ counter_gpio_config_example_54/HI
+ counter_gpio_config_example_540/LO
+ counter_gpio_config_example_541/LO
+ counter_gpio_config_example_542/LO
+ counter_gpio_config_example_543/LO
+ counter_gpio_config_example_544/LO
+ counter_gpio_config_example_545/LO
+ counter_gpio_config_example_546/LO
+ counter_gpio_config_example_547/LO
+ counter_gpio_config_example_548/LO
+ counter_gpio_config_example_549/LO
+ counter_gpio_config_example_55/HI
+ counter_gpio_config_example_550/LO
+ counter_gpio_config_example_551/LO
+ counter_gpio_config_example_552/LO
+ counter_gpio_config_example_553/LO
+ counter_gpio_config_example_554/LO
+ counter_gpio_config_example_555/LO
+ counter_gpio_config_example_556/LO
+ counter_gpio_config_example_557/LO
+ counter_gpio_config_example_558/LO
+ counter_gpio_config_example_559/LO
+ counter_gpio_config_example_56/HI
+ counter_gpio_config_example_560/LO
+ counter_gpio_config_example_561/LO
+ counter_gpio_config_example_562/LO
+ counter_gpio_config_example_563/LO
+ counter_gpio_config_example_564/LO
+ counter_gpio_config_example_565/LO
+ counter_gpio_config_example_566/LO
+ counter_gpio_config_example_567/LO
+ counter_gpio_config_example_568/LO
+ counter_gpio_config_example_569/LO
+ counter_gpio_config_example_57/HI
+ counter_gpio_config_example_570/LO
+ counter_gpio_config_example_571/LO
+ counter_gpio_config_example_572/LO
+ counter_gpio_config_example_573/LO
+ counter_gpio_config_example_574/LO
+ counter_gpio_config_example_575/LO
+ counter_gpio_config_example_58/HI
+ counter_gpio_config_example_59/HI
+ counter_gpio_config_example_60/HI
+ counter_gpio_config_example_61/HI
+ counter_gpio_config_example_62/HI
+ counter_gpio_config_example_63/HI
+ counter_gpio_config_example_64/HI
+ counter_gpio_config_example_65/HI
+ counter_gpio_config_example_66/HI
+ counter_gpio_config_example_67/HI
+ counter_gpio_config_example_68/HI
+ counter_gpio_config_example_69/HI
+ counter_gpio_config_example_70/HI
+ counter_gpio_config_example_71/HI
+ counter_gpio_config_example_72/HI
+ counter_gpio_config_example_73/HI
+ counter_gpio_config_example_74/HI
+ counter_gpio_config_example_75/HI
+ counter_gpio_config_example_76/HI
+ counter_gpio_config_example_77/HI
+ counter_gpio_config_example_78/HI
+ counter_gpio_config_example_79/HI
+ counter_gpio_config_example_80/HI
+ counter_gpio_config_example_81/HI
+ counter_gpio_config_example_82/HI
+ counter_gpio_config_example_83/HI
+ counter_gpio_config_example_84/HI
+ counter_gpio_config_example_85/HI
+ counter_gpio_config_example_86/HI
+ counter_gpio_config_example_87/HI
+ counter_gpio_config_example_88/HI
+ counter_gpio_config_example_89/HI
+ counter_gpio_config_example_90/HI
+ counter_gpio_config_example_91/HI
+ counter_gpio_config_example_92/HI
+ counter_gpio_config_example_93/HI
+ counter_gpio_config_example_94/HI
+ counter_gpio_config_example_95/HI
+ counter_gpio_config_example_96/HI
+ counter_gpio_config_example_97/HI
+ counter_gpio_config_example_98/HI
+ counter_gpio_config_example_99/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 4
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 544 unconstrained endpoints.
+  gpio_analog_en[0]
+  gpio_analog_en[10]
+  gpio_analog_en[11]
+  gpio_analog_en[12]
+  gpio_analog_en[13]
+  gpio_analog_en[14]
+  gpio_analog_en[15]
+  gpio_analog_en[16]
+  gpio_analog_en[17]
+  gpio_analog_en[18]
+  gpio_analog_en[19]
+  gpio_analog_en[1]
+  gpio_analog_en[20]
+  gpio_analog_en[21]
+  gpio_analog_en[22]
+  gpio_analog_en[23]
+  gpio_analog_en[24]
+  gpio_analog_en[25]
+  gpio_analog_en[26]
+  gpio_analog_en[27]
+  gpio_analog_en[28]
+  gpio_analog_en[29]
+  gpio_analog_en[2]
+  gpio_analog_en[30]
+  gpio_analog_en[31]
+  gpio_analog_en[32]
+  gpio_analog_en[33]
+  gpio_analog_en[34]
+  gpio_analog_en[35]
+  gpio_analog_en[36]
+  gpio_analog_en[37]
+  gpio_analog_en[38]
+  gpio_analog_en[39]
+  gpio_analog_en[3]
+  gpio_analog_en[40]
+  gpio_analog_en[41]
+  gpio_analog_en[42]
+  gpio_analog_en[43]
+  gpio_analog_en[4]
+  gpio_analog_en[5]
+  gpio_analog_en[6]
+  gpio_analog_en[7]
+  gpio_analog_en[8]
+  gpio_analog_en[9]
+  gpio_analog_pol[0]
+  gpio_analog_pol[10]
+  gpio_analog_pol[11]
+  gpio_analog_pol[12]
+  gpio_analog_pol[13]
+  gpio_analog_pol[14]
+  gpio_analog_pol[15]
+  gpio_analog_pol[16]
+  gpio_analog_pol[17]
+  gpio_analog_pol[18]
+  gpio_analog_pol[19]
+  gpio_analog_pol[1]
+  gpio_analog_pol[20]
+  gpio_analog_pol[21]
+  gpio_analog_pol[22]
+  gpio_analog_pol[23]
+  gpio_analog_pol[24]
+  gpio_analog_pol[25]
+  gpio_analog_pol[26]
+  gpio_analog_pol[27]
+  gpio_analog_pol[28]
+  gpio_analog_pol[29]
+  gpio_analog_pol[2]
+  gpio_analog_pol[30]
+  gpio_analog_pol[31]
+  gpio_analog_pol[32]
+  gpio_analog_pol[33]
+  gpio_analog_pol[34]
+  gpio_analog_pol[35]
+  gpio_analog_pol[36]
+  gpio_analog_pol[37]
+  gpio_analog_pol[38]
+  gpio_analog_pol[39]
+  gpio_analog_pol[3]
+  gpio_analog_pol[40]
+  gpio_analog_pol[41]
+  gpio_analog_pol[42]
+  gpio_analog_pol[43]
+  gpio_analog_pol[4]
+  gpio_analog_pol[5]
+  gpio_analog_pol[6]
+  gpio_analog_pol[7]
+  gpio_analog_pol[8]
+  gpio_analog_pol[9]
+  gpio_analog_sel[0]
+  gpio_analog_sel[10]
+  gpio_analog_sel[11]
+  gpio_analog_sel[12]
+  gpio_analog_sel[13]
+  gpio_analog_sel[14]
+  gpio_analog_sel[15]
+  gpio_analog_sel[16]
+  gpio_analog_sel[17]
+  gpio_analog_sel[18]
+  gpio_analog_sel[19]
+  gpio_analog_sel[1]
+  gpio_analog_sel[20]
+  gpio_analog_sel[21]
+  gpio_analog_sel[22]
+  gpio_analog_sel[23]
+  gpio_analog_sel[24]
+  gpio_analog_sel[25]
+  gpio_analog_sel[26]
+  gpio_analog_sel[27]
+  gpio_analog_sel[28]
+  gpio_analog_sel[29]
+  gpio_analog_sel[2]
+  gpio_analog_sel[30]
+  gpio_analog_sel[31]
+  gpio_analog_sel[32]
+  gpio_analog_sel[33]
+  gpio_analog_sel[34]
+  gpio_analog_sel[35]
+  gpio_analog_sel[36]
+  gpio_analog_sel[37]
+  gpio_analog_sel[38]
+  gpio_analog_sel[39]
+  gpio_analog_sel[3]
+  gpio_analog_sel[40]
+  gpio_analog_sel[41]
+  gpio_analog_sel[42]
+  gpio_analog_sel[43]
+  gpio_analog_sel[4]
+  gpio_analog_sel[5]
+  gpio_analog_sel[6]
+  gpio_analog_sel[7]
+  gpio_analog_sel[8]
+  gpio_analog_sel[9]
+  gpio_dm0[0]
+  gpio_dm0[10]
+  gpio_dm0[11]
+  gpio_dm0[12]
+  gpio_dm0[13]
+  gpio_dm0[14]
+  gpio_dm0[15]
+  gpio_dm0[16]
+  gpio_dm0[17]
+  gpio_dm0[18]
+  gpio_dm0[19]
+  gpio_dm0[1]
+  gpio_dm0[20]
+  gpio_dm0[21]
+  gpio_dm0[22]
+  gpio_dm0[23]
+  gpio_dm0[24]
+  gpio_dm0[25]
+  gpio_dm0[26]
+  gpio_dm0[27]
+  gpio_dm0[28]
+  gpio_dm0[29]
+  gpio_dm0[2]
+  gpio_dm0[30]
+  gpio_dm0[31]
+  gpio_dm0[32]
+  gpio_dm0[33]
+  gpio_dm0[34]
+  gpio_dm0[35]
+  gpio_dm0[36]
+  gpio_dm0[37]
+  gpio_dm0[38]
+  gpio_dm0[39]
+  gpio_dm0[3]
+  gpio_dm0[40]
+  gpio_dm0[41]
+  gpio_dm0[42]
+  gpio_dm0[43]
+  gpio_dm0[4]
+  gpio_dm0[5]
+  gpio_dm0[6]
+  gpio_dm0[7]
+  gpio_dm0[8]
+  gpio_dm0[9]
+  gpio_dm1[0]
+  gpio_dm1[10]
+  gpio_dm1[11]
+  gpio_dm1[12]
+  gpio_dm1[13]
+  gpio_dm1[14]
+  gpio_dm1[15]
+  gpio_dm1[16]
+  gpio_dm1[17]
+  gpio_dm1[18]
+  gpio_dm1[19]
+  gpio_dm1[1]
+  gpio_dm1[20]
+  gpio_dm1[21]
+  gpio_dm1[22]
+  gpio_dm1[23]
+  gpio_dm1[24]
+  gpio_dm1[25]
+  gpio_dm1[26]
+  gpio_dm1[27]
+  gpio_dm1[28]
+  gpio_dm1[29]
+  gpio_dm1[2]
+  gpio_dm1[30]
+  gpio_dm1[31]
+  gpio_dm1[32]
+  gpio_dm1[33]
+  gpio_dm1[34]
+  gpio_dm1[35]
+  gpio_dm1[36]
+  gpio_dm1[37]
+  gpio_dm1[38]
+  gpio_dm1[39]
+  gpio_dm1[3]
+  gpio_dm1[40]
+  gpio_dm1[41]
+  gpio_dm1[42]
+  gpio_dm1[43]
+  gpio_dm1[4]
+  gpio_dm1[5]
+  gpio_dm1[6]
+  gpio_dm1[7]
+  gpio_dm1[8]
+  gpio_dm1[9]
+  gpio_dm2[0]
+  gpio_dm2[10]
+  gpio_dm2[11]
+  gpio_dm2[12]
+  gpio_dm2[13]
+  gpio_dm2[14]
+  gpio_dm2[15]
+  gpio_dm2[16]
+  gpio_dm2[17]
+  gpio_dm2[18]
+  gpio_dm2[19]
+  gpio_dm2[1]
+  gpio_dm2[20]
+  gpio_dm2[21]
+  gpio_dm2[22]
+  gpio_dm2[23]
+  gpio_dm2[24]
+  gpio_dm2[25]
+  gpio_dm2[26]
+  gpio_dm2[27]
+  gpio_dm2[28]
+  gpio_dm2[29]
+  gpio_dm2[2]
+  gpio_dm2[30]
+  gpio_dm2[31]
+  gpio_dm2[32]
+  gpio_dm2[33]
+  gpio_dm2[34]
+  gpio_dm2[35]
+  gpio_dm2[36]
+  gpio_dm2[37]
+  gpio_dm2[38]
+  gpio_dm2[39]
+  gpio_dm2[3]
+  gpio_dm2[40]
+  gpio_dm2[41]
+  gpio_dm2[42]
+  gpio_dm2[43]
+  gpio_dm2[4]
+  gpio_dm2[5]
+  gpio_dm2[6]
+  gpio_dm2[7]
+  gpio_dm2[8]
+  gpio_dm2[9]
+  gpio_holdover[0]
+  gpio_holdover[10]
+  gpio_holdover[11]
+  gpio_holdover[12]
+  gpio_holdover[13]
+  gpio_holdover[14]
+  gpio_holdover[15]
+  gpio_holdover[16]
+  gpio_holdover[17]
+  gpio_holdover[18]
+  gpio_holdover[19]
+  gpio_holdover[1]
+  gpio_holdover[20]
+  gpio_holdover[21]
+  gpio_holdover[22]
+  gpio_holdover[23]
+  gpio_holdover[24]
+  gpio_holdover[25]
+  gpio_holdover[26]
+  gpio_holdover[27]
+  gpio_holdover[28]
+  gpio_holdover[29]
+  gpio_holdover[2]
+  gpio_holdover[30]
+  gpio_holdover[31]
+  gpio_holdover[32]
+  gpio_holdover[33]
+  gpio_holdover[34]
+  gpio_holdover[35]
+  gpio_holdover[36]
+  gpio_holdover[37]
+  gpio_holdover[38]
+  gpio_holdover[39]
+  gpio_holdover[3]
+  gpio_holdover[40]
+  gpio_holdover[41]
+  gpio_holdover[42]
+  gpio_holdover[43]
+  gpio_holdover[4]
+  gpio_holdover[5]
+  gpio_holdover[6]
+  gpio_holdover[7]
+  gpio_holdover[8]
+  gpio_holdover[9]
+  gpio_ib_mode_sel[0]
+  gpio_ib_mode_sel[10]
+  gpio_ib_mode_sel[11]
+  gpio_ib_mode_sel[12]
+  gpio_ib_mode_sel[13]
+  gpio_ib_mode_sel[14]
+  gpio_ib_mode_sel[15]
+  gpio_ib_mode_sel[16]
+  gpio_ib_mode_sel[17]
+  gpio_ib_mode_sel[18]
+  gpio_ib_mode_sel[19]
+  gpio_ib_mode_sel[1]
+  gpio_ib_mode_sel[20]
+  gpio_ib_mode_sel[21]
+  gpio_ib_mode_sel[22]
+  gpio_ib_mode_sel[23]
+  gpio_ib_mode_sel[24]
+  gpio_ib_mode_sel[25]
+  gpio_ib_mode_sel[26]
+  gpio_ib_mode_sel[27]
+  gpio_ib_mode_sel[28]
+  gpio_ib_mode_sel[29]
+  gpio_ib_mode_sel[2]
+  gpio_ib_mode_sel[30]
+  gpio_ib_mode_sel[31]
+  gpio_ib_mode_sel[32]
+  gpio_ib_mode_sel[33]
+  gpio_ib_mode_sel[34]
+  gpio_ib_mode_sel[35]
+  gpio_ib_mode_sel[36]
+  gpio_ib_mode_sel[37]
+  gpio_ib_mode_sel[38]
+  gpio_ib_mode_sel[39]
+  gpio_ib_mode_sel[3]
+  gpio_ib_mode_sel[40]
+  gpio_ib_mode_sel[41]
+  gpio_ib_mode_sel[42]
+  gpio_ib_mode_sel[43]
+  gpio_ib_mode_sel[4]
+  gpio_ib_mode_sel[5]
+  gpio_ib_mode_sel[6]
+  gpio_ib_mode_sel[7]
+  gpio_ib_mode_sel[8]
+  gpio_ib_mode_sel[9]
+  gpio_inp_dis[0]
+  gpio_inp_dis[10]
+  gpio_inp_dis[11]
+  gpio_inp_dis[12]
+  gpio_inp_dis[13]
+  gpio_inp_dis[14]
+  gpio_inp_dis[15]
+  gpio_inp_dis[16]
+  gpio_inp_dis[17]
+  gpio_inp_dis[18]
+  gpio_inp_dis[19]
+  gpio_inp_dis[1]
+  gpio_inp_dis[20]
+  gpio_inp_dis[21]
+  gpio_inp_dis[22]
+  gpio_inp_dis[23]
+  gpio_inp_dis[24]
+  gpio_inp_dis[25]
+  gpio_inp_dis[26]
+  gpio_inp_dis[27]
+  gpio_inp_dis[28]
+  gpio_inp_dis[29]
+  gpio_inp_dis[2]
+  gpio_inp_dis[30]
+  gpio_inp_dis[31]
+  gpio_inp_dis[32]
+  gpio_inp_dis[33]
+  gpio_inp_dis[34]
+  gpio_inp_dis[35]
+  gpio_inp_dis[36]
+  gpio_inp_dis[37]
+  gpio_inp_dis[38]
+  gpio_inp_dis[39]
+  gpio_inp_dis[3]
+  gpio_inp_dis[40]
+  gpio_inp_dis[41]
+  gpio_inp_dis[42]
+  gpio_inp_dis[43]
+  gpio_inp_dis[4]
+  gpio_inp_dis[5]
+  gpio_inp_dis[6]
+  gpio_inp_dis[7]
+  gpio_inp_dis[8]
+  gpio_inp_dis[9]
+  gpio_oeb[0]
+  gpio_oeb[10]
+  gpio_oeb[11]
+  gpio_oeb[12]
+  gpio_oeb[13]
+  gpio_oeb[14]
+  gpio_oeb[15]
+  gpio_oeb[16]
+  gpio_oeb[17]
+  gpio_oeb[1]
+  gpio_oeb[22]
+  gpio_oeb[23]
+  gpio_oeb[24]
+  gpio_oeb[25]
+  gpio_oeb[26]
+  gpio_oeb[27]
+  gpio_oeb[28]
+  gpio_oeb[29]
+  gpio_oeb[2]
+  gpio_oeb[30]
+  gpio_oeb[31]
+  gpio_oeb[32]
+  gpio_oeb[33]
+  gpio_oeb[34]
+  gpio_oeb[35]
+  gpio_oeb[36]
+  gpio_oeb[37]
+  gpio_oeb[38]
+  gpio_oeb[39]
+  gpio_oeb[3]
+  gpio_oeb[40]
+  gpio_oeb[41]
+  gpio_oeb[42]
+  gpio_oeb[43]
+  gpio_oeb[4]
+  gpio_oeb[5]
+  gpio_oeb[6]
+  gpio_oeb[7]
+  gpio_oeb[8]
+  gpio_oeb[9]
+  gpio_out[0]
+  gpio_out[10]
+  gpio_out[11]
+  gpio_out[12]
+  gpio_out[13]
+  gpio_out[14]
+  gpio_out[15]
+  gpio_out[16]
+  gpio_out[17]
+  gpio_out[1]
+  gpio_out[38]
+  gpio_out[39]
+  gpio_out[40]
+  gpio_out[41]
+  gpio_out[42]
+  gpio_out[43]
+  gpio_out[6]
+  gpio_out[7]
+  gpio_out[8]
+  gpio_out[9]
+  gpio_slow_sel[0]
+  gpio_slow_sel[10]
+  gpio_slow_sel[11]
+  gpio_slow_sel[12]
+  gpio_slow_sel[13]
+  gpio_slow_sel[14]
+  gpio_slow_sel[15]
+  gpio_slow_sel[16]
+  gpio_slow_sel[17]
+  gpio_slow_sel[18]
+  gpio_slow_sel[19]
+  gpio_slow_sel[1]
+  gpio_slow_sel[20]
+  gpio_slow_sel[21]
+  gpio_slow_sel[22]
+  gpio_slow_sel[23]
+  gpio_slow_sel[24]
+  gpio_slow_sel[25]
+  gpio_slow_sel[26]
+  gpio_slow_sel[27]
+  gpio_slow_sel[28]
+  gpio_slow_sel[29]
+  gpio_slow_sel[2]
+  gpio_slow_sel[30]
+  gpio_slow_sel[31]
+  gpio_slow_sel[32]
+  gpio_slow_sel[33]
+  gpio_slow_sel[34]
+  gpio_slow_sel[35]
+  gpio_slow_sel[36]
+  gpio_slow_sel[37]
+  gpio_slow_sel[38]
+  gpio_slow_sel[39]
+  gpio_slow_sel[3]
+  gpio_slow_sel[40]
+  gpio_slow_sel[41]
+  gpio_slow_sel[42]
+  gpio_slow_sel[43]
+  gpio_slow_sel[4]
+  gpio_slow_sel[5]
+  gpio_slow_sel[6]
+  gpio_slow_sel[7]
+  gpio_slow_sel[8]
+  gpio_slow_sel[9]
+  gpio_vtrip_sel[0]
+  gpio_vtrip_sel[10]
+  gpio_vtrip_sel[11]
+  gpio_vtrip_sel[12]
+  gpio_vtrip_sel[13]
+  gpio_vtrip_sel[14]
+  gpio_vtrip_sel[15]
+  gpio_vtrip_sel[16]
+  gpio_vtrip_sel[17]
+  gpio_vtrip_sel[18]
+  gpio_vtrip_sel[19]
+  gpio_vtrip_sel[1]
+  gpio_vtrip_sel[20]
+  gpio_vtrip_sel[21]
+  gpio_vtrip_sel[22]
+  gpio_vtrip_sel[23]
+  gpio_vtrip_sel[24]
+  gpio_vtrip_sel[25]
+  gpio_vtrip_sel[26]
+  gpio_vtrip_sel[27]
+  gpio_vtrip_sel[28]
+  gpio_vtrip_sel[29]
+  gpio_vtrip_sel[2]
+  gpio_vtrip_sel[30]
+  gpio_vtrip_sel[31]
+  gpio_vtrip_sel[32]
+  gpio_vtrip_sel[33]
+  gpio_vtrip_sel[34]
+  gpio_vtrip_sel[35]
+  gpio_vtrip_sel[36]
+  gpio_vtrip_sel[37]
+  gpio_vtrip_sel[38]
+  gpio_vtrip_sel[39]
+  gpio_vtrip_sel[3]
+  gpio_vtrip_sel[40]
+  gpio_vtrip_sel[41]
+  gpio_vtrip_sel[42]
+  gpio_vtrip_sel[43]
+  gpio_vtrip_sel[4]
+  gpio_vtrip_sel[5]
+  gpio_vtrip_sel[6]
+  gpio_vtrip_sel[7]
+  gpio_vtrip_sel[8]
+  gpio_vtrip_sel[9]

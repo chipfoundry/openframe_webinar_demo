@@ -6,26 +6,26 @@
         "dir::/../../verilog/rtl/openframe_project_wrapper.v"
     ],
     "VERILOG_FILES_BLACKBOX": [
-        "dir::../../verilog/gl/user_proj_timer.v",
+        "dir::../../verilog/gl/counter_gpio_config_example.v",
         "dir::../../verilog/gl/vccd1_connection.v",
         "dir::../../verilog/gl/vssd1_connection.v"
     ],
     "EXTRA_LEFS": [
-        "dir::../../lef/user_proj_timer.lef",
+        "dir::../../lef/counter_gpio_config_example.lef",
         "dir::../../lef/vccd1_connection.lef",
         "dir::../../lef/vssd1_connection.lef"
     ],
     "EXTRA_GDS_FILES": [
-        "dir::../../gds/user_proj_timer.gds",
+        "dir::../../gds/counter_gpio_config_example.gds",
         "dir::../../gds/vccd1_connection.gds",
         "dir::../../gds/vssd1_connection.gds"
     ],
-    "EXTRA_LIBS": "dir::../../lib/user_proj_timer.lib",
+    "EXTRA_LIBS": "dir::../../lib/counter_gpio_config_example.lib",
     "EXTRA_SPEFS": [
-        "user_proj_timer",
-        "dir::../../spef/multicorner/user_proj_timer.min.spef",
-        "dir::../../spef/multicorner/user_proj_timer.nom.spef",
-        "dir::../../spef/multicorner/user_proj_timer.max.spef"
+        "counter_gpio_config_example",
+        "dir::../../spef/multicorner/counter_gpio_config_example.min.spef",
+        "dir::../../spef/multicorner/counter_gpio_config_example.nom.spef",
+        "dir::../../spef/multicorner/counter_gpio_config_example.max.spef"
     ],
     "MAX_TRANSITION_CONSTRAINT": 0.5,
     "ERROR_ON_NL_ASSIGN_STATEMENTS": 0,

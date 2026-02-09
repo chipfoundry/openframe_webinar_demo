@@ -1,0 +1,2 @@
+command used to run this sim:
+% /home/marwan/webinar_demo/venv-cocotb/bin/caravel_cocotb -t gpio_config_test --openframe --CI

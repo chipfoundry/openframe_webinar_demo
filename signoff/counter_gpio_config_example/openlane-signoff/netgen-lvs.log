@@ -1,0 +1,1197 @@
+Netgen 1.5.278 compiled on Sun Sep 29 13:29:03 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice'...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_20_12.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_40_12.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_60_12.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_80_12.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_2.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice'...
+Reading SPICE netlist file '/home/marwan/webinar_demo/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice'...
+Call to undefined subcircuit sky130_fd_pr__res_generic_po
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_05v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Note:  Implicit pin LO in instance counter_gpio_config_example_469 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_470 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_471 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_472 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_473 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_474 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_475 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_476 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_477 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_478 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_479 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_480 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_481 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_482 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_483 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_484 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_485 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_486 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_487 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_488 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_489 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_490 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_491 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_492 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_493 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_494 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_495 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_496 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_497 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_498 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_499 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_500 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_501 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_502 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_503 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_504 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_505 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_506 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_507 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_508 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_509 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_510 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_511 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_512 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_513 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_514 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_515 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_516 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_517 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_518 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_519 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_520 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_521 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_522 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_523 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_524 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_525 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_526 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_527 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_528 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_529 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_530 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_531 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_532 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_533 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_534 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_535 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_536 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_537 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_538 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_539 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_540 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_541 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_542 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_543 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_544 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_545 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_546 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_547 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_548 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_549 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_550 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_551 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_552 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_553 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_554 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_555 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_556 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_557 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_558 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_559 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_560 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_561 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_562 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_563 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_564 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_565 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_566 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_567 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_568 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_569 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_570 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_571 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_572 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_573 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_574 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_575 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_33 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_34 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_35 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_36 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_37 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_38 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_39 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_40 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_41 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_42 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_43 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_44 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_45 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_46 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_47 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_48 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_49 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_50 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_51 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_52 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_53 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_54 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_55 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_56 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_57 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_58 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_59 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_60 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_61 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_62 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_63 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_64 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_65 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_66 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_67 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_68 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_69 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_70 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_71 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_72 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_73 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_74 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_75 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_76 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_77 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_78 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_79 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_80 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_81 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_82 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_83 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_84 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_85 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_86 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_87 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_88 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_89 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_90 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_91 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_92 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_93 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_94 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_95 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_96 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_97 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_98 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_99 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_100 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_101 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_102 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_103 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_104 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_105 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_106 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_107 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_108 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_109 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_110 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_111 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_112 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_113 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_114 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_115 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_116 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_117 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_118 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_119 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_120 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_121 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_122 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_123 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_124 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_125 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_126 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_127 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_128 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_129 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_130 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_131 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_132 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_133 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_134 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_135 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_136 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_137 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_138 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_139 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_140 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_141 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_142 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_143 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_144 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_145 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_146 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_147 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_148 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_149 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_150 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_151 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_152 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_153 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_154 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_155 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_156 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_157 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_158 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_159 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_160 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_161 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_162 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_163 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_164 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_165 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_166 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_167 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_168 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_169 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_170 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_171 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_172 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_173 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_174 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_175 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_176 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_177 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_178 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_179 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_180 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_181 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_182 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_183 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_184 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_185 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_186 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_187 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_188 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_189 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_190 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_191 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_192 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_193 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_194 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_195 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_196 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_197 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_198 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_199 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_200 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_201 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_202 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_203 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_204 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_205 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_206 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_207 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_208 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_209 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_210 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_211 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_212 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_213 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_214 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_215 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_216 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_217 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_218 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_219 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_220 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_221 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_222 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_223 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_224 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_225 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_226 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_227 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_228 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_229 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_230 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_231 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_232 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_233 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_234 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_235 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_236 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_237 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_238 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_239 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_240 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_241 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_242 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_243 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_244 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_245 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_246 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_247 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_248 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_249 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_250 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_251 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_252 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_253 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_254 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_255 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_256 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_257 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_258 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_259 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_260 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_261 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_262 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_263 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_264 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_265 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_266 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_267 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_268 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_269 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_270 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_271 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_272 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_273 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_274 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_275 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_276 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_277 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_278 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_279 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_280 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_281 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_282 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_283 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_284 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_285 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_286 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_287 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_288 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_289 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_290 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_291 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_292 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_293 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_294 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_295 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_296 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_297 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_298 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_299 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_300 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_301 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_302 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_303 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_304 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_305 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_306 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_307 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_308 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_309 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_310 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_311 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_312 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_313 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_314 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_315 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_316 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_317 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_318 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_319 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_320 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_321 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_322 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_323 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_324 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_325 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_326 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_327 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_328 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_329 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_330 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_331 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_332 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_333 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_334 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_335 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_336 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_337 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_338 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_339 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_340 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_341 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_342 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_343 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_344 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_345 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_346 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_347 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_348 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_349 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_350 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_351 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_352 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_353 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_354 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_355 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_356 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_357 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_358 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_359 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_360 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_361 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_362 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_363 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_364 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_365 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_366 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_367 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_368 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_369 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_370 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_371 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_372 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_373 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_374 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_375 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_376 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_377 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_378 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_379 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_380 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_381 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_382 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_383 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_384 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_385 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_386 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_387 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_388 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_389 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_390 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_391 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_392 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_393 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_394 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_395 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_396 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_397 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_398 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_399 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_400 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_401 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_402 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_403 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_404 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_405 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_406 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_407 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_408 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_409 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_410 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_411 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_412 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_413 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_414 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_415 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_416 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_417 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_418 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_419 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_420 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_421 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_422 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_423 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_424 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_425 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_426 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_427 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_428 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_429 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_430 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_431 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_432 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_433 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_434 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_435 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_436 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_437 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_438 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_439 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_440 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_441 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_442 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_443 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_444 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_445 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_446 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_447 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_448 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_449 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_450 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_451 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_452 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_453 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_454 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_455 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_456 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_457 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_458 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_459 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_460 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_461 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_462 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_463 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_464 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_465 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_466 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_467 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin LO in instance counter_gpio_config_example_468 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin HI in instance counter_gpio_config_example_32 of sky130_fd_sc_hd__conb_1 in cell counter_gpio_config_example
+Note:  Implicit pin Y in instance clkload0 of sky130_fd_sc_hd__bufinv_16 in cell counter_gpio_config_example
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+
+Reading setup file /nix/store/wn1fdnkvfs0r3b197kgsf2fwavmsn82c-python3.11-librelane-2.4.6/lib/python3.11/site-packages/librelane/scripts/netgen/setup.tcl
+
+Model sky130_fd_pr__res_generic_po pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_po
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__special_nfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_01v8
+No property ad found for device sky130_fd_pr__special_nfet_01v8
+No property ps found for device sky130_fd_pr__special_nfet_01v8
+No property pd found for device sky130_fd_pr__special_nfet_01v8
+No property mult found for device sky130_fd_pr__special_nfet_01v8
+No property sa found for device sky130_fd_pr__special_nfet_01v8
+No property sb found for device sky130_fd_pr__special_nfet_01v8
+No property sd found for device sky130_fd_pr__special_nfet_01v8
+No property nf found for device sky130_fd_pr__special_nfet_01v8
+No property nrd found for device sky130_fd_pr__special_nfet_01v8
+No property nrs found for device sky130_fd_pr__special_nfet_01v8
+No property area found for device sky130_fd_pr__special_nfet_01v8
+No property perim found for device sky130_fd_pr__special_nfet_01v8
+No property topography found for device sky130_fd_pr__special_nfet_01v8
+Model sky130_fd_pr__special_pfet_01v8_hvt pin 1 == 3
+No property as found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property ad found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property ps found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property pd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property mult found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property area found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__special_pfet_01v8_hvt
+No property value found for device sky130_fd_pr__diode_pw2nd_05v5
+No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
+Comparison output logged to file /home/marwan/webinar_demo/openlane/counter_gpio_config_example/runs/26_02_09_04_39/69-netgen-lvs/reports/lvs.netgen.rpt
+Logging to file "/home/marwan/webinar_demo/openlane/counter_gpio_config_example/runs/26_02_09_04_39/69-netgen-lvs/reports/lvs.netgen.rpt" enabled
+
+Contents of circuit 1:  Circuit: 'sky130_ef_sc_hd__decap_40_12'
+Circuit sky130_ef_sc_hd__decap_40_12 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_sc_hd__decap_40_12'
+Circuit sky130_ef_sc_hd__decap_40_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit sky130_ef_sc_hd__decap_40_12 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_4'
+Circuit sky130_fd_sc_hd__fill_4 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_4'
+Circuit sky130_fd_sc_hd__fill_4 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit sky130_fd_sc_hd__decap_3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+
+Circuit sky130_fd_sc_hd__conb_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_8'
+Circuit sky130_fd_sc_hd__fill_8 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_8'
+Circuit sky130_fd_sc_hd__fill_8 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and3_1'
+Circuit sky130_fd_sc_hd__and3_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and3_1'
+Circuit sky130_fd_sc_hd__and3_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit sky130_fd_sc_hd__and3_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__diode_2'
+Circuit sky130_fd_sc_hd__diode_2 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__diode_2'
+Circuit sky130_fd_sc_hd__diode_2 contains 1 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
+Circuit contains 2 nets, and 3 disconnected pins.
+
+Circuit sky130_fd_sc_hd__diode_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit sky130_fd_sc_hd__nand2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__dlygate4sd3_1'
+Circuit sky130_fd_sc_hd__dlygate4sd3_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__dlygate4sd3_1'
+Circuit sky130_fd_sc_hd__dlygate4sd3_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 9 nets.
+
+Circuit sky130_fd_sc_hd__dlygate4sd3_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__clkbuf_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__buf_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__xor2_1'
+Circuit sky130_fd_sc_hd__xor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__xor2_1'
+Circuit sky130_fd_sc_hd__xor2_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 11 nets.
+
+Circuit sky130_fd_sc_hd__xor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__inv_2'
+Circuit sky130_fd_sc_hd__inv_2 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__inv_2'
+Circuit sky130_fd_sc_hd__inv_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 6 nets.
+
+Circuit sky130_fd_sc_hd__inv_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o21ba_1'
+Circuit sky130_fd_sc_hd__o21ba_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o21ba_1'
+Circuit sky130_fd_sc_hd__o21ba_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit sky130_fd_sc_hd__o21ba_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__bufinv_16'
+Circuit sky130_fd_sc_hd__bufinv_16 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__bufinv_16'
+Circuit sky130_fd_sc_hd__bufinv_16 contains 50 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  25
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  25
+Circuit contains 8 nets.
+
+Circuit sky130_fd_sc_hd__bufinv_16 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__dfrtp_1'
+Circuit sky130_fd_sc_hd__dfrtp_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__dfrtp_1'
+Circuit sky130_fd_sc_hd__dfrtp_1 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  10
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   4
+Circuit contains 21 nets.
+
+Circuit sky130_fd_sc_hd__dfrtp_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_16'
+Circuit sky130_fd_sc_hd__clkbuf_16 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_16'
+Circuit sky130_fd_sc_hd__clkbuf_16 contains 40 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  20
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  20
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__clkbuf_16 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__dfrtp_2'
+Circuit sky130_fd_sc_hd__dfrtp_2 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__dfrtp_2'
+Circuit sky130_fd_sc_hd__dfrtp_2 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  11
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   4
+Circuit contains 21 nets.
+
+Circuit sky130_fd_sc_hd__dfrtp_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and4_4'
+Circuit sky130_fd_sc_hd__and4_4 contains 0 device instances.
+Circuit contains 0 nets, and 9 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and4_4'
+Circuit sky130_fd_sc_hd__and4_4 contains 16 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   8
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   8
+Circuit contains 13 nets.
+
+Circuit sky130_fd_sc_hd__and4_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and4_1'
+Circuit sky130_fd_sc_hd__and4_1 contains 0 device instances.
+Circuit contains 0 nets, and 9 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and4_1'
+Circuit sky130_fd_sc_hd__and4_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 13 nets.
+
+Circuit sky130_fd_sc_hd__and4_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_4'
+Circuit sky130_fd_sc_hd__clkbuf_4 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_4'
+Circuit sky130_fd_sc_hd__clkbuf_4 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__clkbuf_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and2_4'
+Circuit sky130_fd_sc_hd__and2_4 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and2_4'
+Circuit sky130_fd_sc_hd__and2_4 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 9 nets.
+
+Circuit sky130_fd_sc_hd__and2_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_8'
+Circuit sky130_fd_sc_hd__buf_8 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_8'
+Circuit sky130_fd_sc_hd__buf_8 contains 22 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  11
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  11
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__buf_8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__clkbuf_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and2_1'
+Circuit sky130_fd_sc_hd__and2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and2_1'
+Circuit sky130_fd_sc_hd__and2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 9 nets.
+
+Circuit sky130_fd_sc_hd__and2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit sky130_fd_sc_hd__nor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__buf_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a21oi_1'
+Circuit sky130_fd_sc_hd__a21oi_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a21oi_1'
+Circuit sky130_fd_sc_hd__a21oi_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 10 nets.
+
+Circuit sky130_fd_sc_hd__a21oi_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and2b_1'
+Circuit sky130_fd_sc_hd__and2b_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and2b_1'
+Circuit sky130_fd_sc_hd__and2b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 10 nets.
+
+Circuit sky130_fd_sc_hd__and2b_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a31o_1'
+Circuit sky130_fd_sc_hd__a31o_1 contains 0 device instances.
+Circuit contains 0 nets, and 9 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a31o_1'
+Circuit sky130_fd_sc_hd__a31o_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 13 nets.
+
+Circuit sky130_fd_sc_hd__a31o_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_6'
+Circuit sky130_fd_sc_hd__buf_6 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_6'
+Circuit sky130_fd_sc_hd__buf_6 contains 16 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   8
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   8
+Circuit contains 7 nets.
+
+Circuit sky130_fd_sc_hd__buf_6 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__xnor2_1'
+Circuit sky130_fd_sc_hd__xnor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__xnor2_1'
+Circuit sky130_fd_sc_hd__xnor2_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 11 nets.
+
+Circuit sky130_fd_sc_hd__xnor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or2_1'
+Circuit sky130_fd_sc_hd__or2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or2_1'
+Circuit sky130_fd_sc_hd__or2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 9 nets.
+
+Circuit sky130_fd_sc_hd__or2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'counter_gpio_config_example'
+Circuit counter_gpio_config_example contains 66327 device instances.
+  Class: sky130_fd_sc_hd__bufinv_16 instances:   1
+  Class: sky130_fd_sc_hd__a31o_1 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_16 instances:   4
+  Class: sky130_fd_sc_hd__buf_1 instances:   4
+  Class: sky130_fd_sc_hd__buf_2 instances:  28
+  Class: sky130_fd_sc_hd__buf_6 instances:   1
+  Class: sky130_fd_sc_hd__buf_8 instances:   1
+  Class: sky130_fd_sc_hd__xor2_1 instances:   8
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:  18
+  Class: sky130_fd_sc_hd__dfrtp_2 instances:   2
+  Class: sky130_fd_sc_hd__and4_1 instances:   5
+  Class: sky130_fd_sc_hd__and4_4 instances:   3
+  Class: sky130_fd_sc_hd__inv_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  21
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_4 instances:   1
+  Class: sky130_fd_sc_hd__o21ba_1 instances:   4
+  Class: sky130_fd_sc_hd__and2b_1 instances:   2
+  Class: sky130_fd_sc_hd__conb_1 instances: 544
+  Class: sky130_fd_sc_hd__and3_1 instances:   5
+  Class: sky130_fd_sc_hd__decap_3 instances: 718
+  Class: sky130_fd_sc_hd__dlygate4sd3_1 instances:  36
+  Class: sky130_fd_sc_hd__or2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__and2_1 instances:   3
+  Class: sky130_fd_sc_hd__and2_4 instances:   1
+  Class: sky130_fd_sc_hd__xnor2_1 instances:   1
+  Class: sky130_fd_sc_hd__diode_2 instances:  92
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 8122
+  Class: sky130_fd_sc_hd__a21oi_1 instances:   2
+  Class: sky130_fd_sc_hd__fill_1 instances: 8138
+  Class: sky130_fd_sc_hd__fill_2 instances: 7967
+  Class: sky130_fd_sc_hd__fill_4 instances: 8017
+  Class: sky130_fd_sc_hd__fill_8 instances: 196
+  Class: sky130_ef_sc_hd__decap_40_12 instances: 32370
+  Class: sky130_fd_sc_hd__nor2_1 instances:   4
+Circuit contains 1256 nets, and 42 disconnected pins.
+Contents of circuit 2:  Circuit: 'counter_gpio_config_example'
+Circuit counter_gpio_config_example contains 66327 device instances.
+  Class: sky130_fd_sc_hd__bufinv_16 instances:   1
+  Class: sky130_fd_sc_hd__a31o_1 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_16 instances:   4
+  Class: sky130_fd_sc_hd__buf_1 instances:   4
+  Class: sky130_fd_sc_hd__buf_2 instances:  28
+  Class: sky130_fd_sc_hd__buf_6 instances:   1
+  Class: sky130_fd_sc_hd__buf_8 instances:   1
+  Class: sky130_fd_sc_hd__xor2_1 instances:   8
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:  18
+  Class: sky130_fd_sc_hd__dfrtp_2 instances:   2
+  Class: sky130_fd_sc_hd__and4_1 instances:   5
+  Class: sky130_fd_sc_hd__and4_4 instances:   3
+  Class: sky130_fd_sc_hd__inv_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  21
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_4 instances:   1
+  Class: sky130_fd_sc_hd__o21ba_1 instances:   4
+  Class: sky130_fd_sc_hd__and2b_1 instances:   2
+  Class: sky130_fd_sc_hd__conb_1 instances: 544
+  Class: sky130_fd_sc_hd__and3_1 instances:   5
+  Class: sky130_fd_sc_hd__decap_3 instances: 718
+  Class: sky130_fd_sc_hd__dlygate4sd3_1 instances:  36
+  Class: sky130_fd_sc_hd__or2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__and2_1 instances:   3
+  Class: sky130_fd_sc_hd__and2_4 instances:   1
+  Class: sky130_fd_sc_hd__xnor2_1 instances:   1
+  Class: sky130_fd_sc_hd__diode_2 instances:  92
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 8122
+  Class: sky130_fd_sc_hd__a21oi_1 instances:   2
+  Class: sky130_fd_sc_hd__fill_1 instances: 8138
+  Class: sky130_fd_sc_hd__fill_2 instances: 7967
+  Class: sky130_fd_sc_hd__fill_4 instances: 8017
+  Class: sky130_fd_sc_hd__fill_8 instances: 196
+  Class: sky130_ef_sc_hd__decap_40_12 instances: 32370
+  Class: sky130_fd_sc_hd__nor2_1 instances:   4
+Circuit contains 1256 nets, and 42 disconnected pins.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'counter_gpio_config_example'
+Circuit counter_gpio_config_example contains 732 device instances.
+  Class: sky130_fd_sc_hd__bufinv_16 instances:   1
+  Class: sky130_fd_sc_hd__a31o_1 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_16 instances:   4
+  Class: sky130_fd_sc_hd__buf_1 instances:   4
+  Class: sky130_fd_sc_hd__buf_2 instances:  28
+  Class: sky130_fd_sc_hd__buf_6 instances:   1
+  Class: sky130_fd_sc_hd__buf_8 instances:   1
+  Class: sky130_fd_sc_hd__xor2_1 instances:   8
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:  18
+  Class: sky130_fd_sc_hd__dfrtp_2 instances:   2
+  Class: sky130_fd_sc_hd__and4_1 instances:   5
+  Class: sky130_fd_sc_hd__and4_4 instances:   3
+  Class: sky130_fd_sc_hd__inv_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  21
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_4 instances:   1
+  Class: sky130_fd_sc_hd__o21ba_1 instances:   4
+  Class: sky130_fd_sc_hd__and2b_1 instances:   2
+  Class: sky130_fd_sc_hd__conb_1 instances: 544
+  Class: sky130_fd_sc_hd__and3_1 instances:   5
+  Class: sky130_fd_sc_hd__decap_3 instances:   1
+  Class: sky130_fd_sc_hd__dlygate4sd3_1 instances:  36
+  Class: sky130_fd_sc_hd__or2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__and2_1 instances:   3
+  Class: sky130_fd_sc_hd__and2_4 instances:   1
+  Class: sky130_fd_sc_hd__xnor2_1 instances:   1
+  Class: sky130_fd_sc_hd__diode_2 instances:  18
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:   1
+  Class: sky130_fd_sc_hd__a21oi_1 instances:   2
+  Class: sky130_fd_sc_hd__fill_1 instances:   1
+  Class: sky130_fd_sc_hd__fill_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_4 instances:   1
+  Class: sky130_fd_sc_hd__fill_8 instances:   1
+  Class: sky130_ef_sc_hd__decap_40_12 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   4
+Circuit contains 1256 nets, and 42 disconnected pins.
+Contents of circuit 2:  Circuit: 'counter_gpio_config_example'
+Circuit counter_gpio_config_example contains 732 device instances.
+  Class: sky130_fd_sc_hd__bufinv_16 instances:   1
+  Class: sky130_fd_sc_hd__a31o_1 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_16 instances:   4
+  Class: sky130_fd_sc_hd__buf_1 instances:   4
+  Class: sky130_fd_sc_hd__buf_2 instances:  28
+  Class: sky130_fd_sc_hd__buf_6 instances:   1
+  Class: sky130_fd_sc_hd__buf_8 instances:   1
+  Class: sky130_fd_sc_hd__xor2_1 instances:   8
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:  18
+  Class: sky130_fd_sc_hd__dfrtp_2 instances:   2
+  Class: sky130_fd_sc_hd__and4_1 instances:   5
+  Class: sky130_fd_sc_hd__and4_4 instances:   3
+  Class: sky130_fd_sc_hd__inv_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  21
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__clkbuf_4 instances:   1
+  Class: sky130_fd_sc_hd__o21ba_1 instances:   4
+  Class: sky130_fd_sc_hd__and2b_1 instances:   2
+  Class: sky130_fd_sc_hd__conb_1 instances: 544
+  Class: sky130_fd_sc_hd__and3_1 instances:   5
+  Class: sky130_fd_sc_hd__decap_3 instances:   1
+  Class: sky130_fd_sc_hd__dlygate4sd3_1 instances:  36
+  Class: sky130_fd_sc_hd__or2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__and2_1 instances:   3
+  Class: sky130_fd_sc_hd__and2_4 instances:   1
+  Class: sky130_fd_sc_hd__xnor2_1 instances:   1
+  Class: sky130_fd_sc_hd__diode_2 instances:  18
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:   1
+  Class: sky130_fd_sc_hd__a21oi_1 instances:   2
+  Class: sky130_fd_sc_hd__fill_1 instances:   1
+  Class: sky130_fd_sc_hd__fill_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_4 instances:   1
+  Class: sky130_fd_sc_hd__fill_8 instances:   1
+  Class: sky130_ef_sc_hd__decap_40_12 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   4
+Circuit contains 1256 nets, and 42 disconnected pins.
+
+Circuit 1 contains 732 devices, Circuit 2 contains 732 devices.
+Circuit 1 contains 1256 nets,    Circuit 2 contains 1256 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/marwan/webinar_demo/openlane/counter_gpio_config_example/runs/26_02_09_04_39/69-netgen-lvs/reports/lvs.netgen.rpt" disabled
+LVS Done.
