@@ -118,6 +118,8 @@ module openframe_project_wrapper (
         .gpio_out(gpio_out),
         .gpio_oeb(gpio_oeb),
         .gpio_inp_dis(gpio_inp_dis),
+        .gpio_loopback_one(gpio_loopback_one),
+        .gpio_loopback_zero(gpio_loopback_zero),
 
         // GPIO pad configuration
         .gpio_ib_mode_sel(gpio_ib_mode_sel),

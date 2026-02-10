@@ -44,6 +44,9 @@ module counter_gpio_config_example (
 
     // Reset
     input  wire resetb_l,
+    
+    input  wire [`OPENFRAME_IO_PADS-1:0] gpio_loopback_zero,
+    input  wire [`OPENFRAME_IO_PADS-1:0] gpio_loopback_one,
 
     // GPIO interface (directly connected to pads)
     input  wire [`OPENFRAME_IO_PADS-1:0] gpio_in,
@@ -110,7 +113,9 @@ module counter_gpio_config_example (
             wire [2:0] dm;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_INPUT)) cfg (
-                .io_out(1'b0), .io_in(), .io_oeb(1'b1), .analog(2'b00),
+                .io_out(1'b0), .io_in(), .io_oeb(),
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -132,7 +137,9 @@ module counter_gpio_config_example (
             wire [2:0] dm;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_OUTPUT)) cfg (
-                .io_out(counter[i-2]), .io_in(), .io_oeb(1'b0), .analog(2'b00),
+                .io_out(counter[i-2]), .io_in(), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -155,7 +162,9 @@ module counter_gpio_config_example (
             wire input_val;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_INPUT)) cfg (
-                .io_out(1'b0), .io_in(input_val), .io_oeb(1'b1), .analog(2'b00),
+                .io_out(), .io_in(input_val), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -178,7 +187,9 @@ module counter_gpio_config_example (
             wire input_val;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_INPUT_PD)) cfg (
-                .io_out(1'b0), .io_in(input_val), .io_oeb(1'b1), .analog(2'b00),
+                .io_out(), .io_in(input_val), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -201,7 +212,9 @@ module counter_gpio_config_example (
             wire input_val;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_INPUT_PU)) cfg (
-                .io_out(1'b0), .io_in(input_val), .io_oeb(1'b1), .analog(2'b00),
+                .io_out(), .io_in(input_val), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -224,7 +237,9 @@ module counter_gpio_config_example (
             wire input_val;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_BIDIR)) cfg (
-                .io_out(bidir_out_data[i-18]), .io_in(input_val), .io_oeb(bidir_oeb), .analog(2'b00),
+                .io_out(bidir_out_data[i-18]), .io_in(input_val), .io_oeb(bidir_oeb), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -246,7 +261,9 @@ module counter_gpio_config_example (
             wire [2:0] dm;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_OUTPUT)) cfg (
-                .io_out(counter[i-18]), .io_in(), .io_oeb(1'b0), .analog(2'b00),
+                .io_out(counter[i-18]), .io_in(), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),
@@ -268,7 +285,9 @@ module counter_gpio_config_example (
             wire [2:0] dm;
             wire out_val;
             CF_gpio_config #(.MODE(MODE_INPUT)) cfg (
-                .io_out(1'b0), .io_in(), .io_oeb(1'b1), .analog(2'b00),
+                .io_out(1'b0), .io_in(), .io_oeb(), 
+                .gpio_zero(gpio_loopback_zero[i]),
+                .gpio_one(gpio_loopback_one[i]),
                 .gpio_in(gpio_in[i]), .gpio_dm(dm),
                 .gpio_inp_dis(gpio_inp_dis[i]), .gpio_oeb_out(gpio_oeb[i]),
                 .gpio_out_val(out_val),

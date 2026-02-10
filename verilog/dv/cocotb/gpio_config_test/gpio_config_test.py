@@ -45,12 +45,12 @@ BIDIR_GPIOS = (21, 18)     # GPIOs 18-21: BIDIR mode
 
 # Expected drive modes from sky130_gpio_config
 # Based on Sky130 GPIO pad behavioral model:
-#   dm=010: bufif1(pull1, strong0) - weak 1, strong 0 -> for INPUT_PU
-#   dm=011: bufif1(strong1, pull0) - strong 1, weak 0 -> for INPUT_PD
-# dm[2:0]: 001=INPUT, 011=INPUT_PD (weak 0), 010=INPUT_PU (weak 1), 110=OUTPUT/BIDIR
+#   dm=111: bufif1(pull1, strong0) - weak 1, strong 0 -> for INPUT_PU
+#   dm=111: bufif1(strong1, pull0) - strong 1, weak 0 -> for INPUT_PD
+# dm[2:0]: 001=INPUT, 111=INPUT_PD (weak 0), 111=INPUT_PU (weak 1), 110=OUTPUT/BIDIR
 DM_INPUT    = 0b001
-DM_INPUT_PD = 0b011  # Weak 0 (pull-down) - requires oeb=0, out=0
-DM_INPUT_PU = 0b010  # Weak 1 (pull-up) - requires oeb=0, out=1
+DM_INPUT_PD = 0b111  # Weak 0 (pull-down) - requires oeb=0, out=0
+DM_INPUT_PU = 0b111  # Weak 1 (pull-up) - requires oeb=0, out=1
 DM_OUTPUT   = 0b110
 DM_BIDIR    = 0b110
 
@@ -194,12 +194,12 @@ async def gpio_config_test(dut):
     pd_val = env.monitor_gpio_range(INPUT_PD_GPIOS)
     cocotb.log.info(f"[TEST] Pull-down GPIOs read: {pd_val:04b} ({pd_val})")
     
-    # Verify configuration: INPUT_PD should have oeb=0 (driving weak 0), dm=011
+    # Verify configuration: INPUT_PD should have oeb=0 (driving weak 0), dm=111
     for gpio in range(10, 14):
         cfg = get_gpio_config(dut, gpio)
         cocotb.log.info(f"[TEST] GPIO {gpio} config: oeb={cfg['oeb']}, inp_dis={cfg['inp_dis']}, dm={cfg['dm_str']}")
         assert cfg['oeb'] == 0, f"INPUT_PD GPIO {gpio} should have oeb=0 (driving weak 0), got {cfg['oeb']}"
-        assert cfg['dm'] == DM_INPUT_PD, f"INPUT_PD GPIO {gpio} should have dm=011, got {cfg['dm_str']}"
+        assert cfg['dm'] == DM_INPUT_PD, f"INPUT_PD GPIO {gpio} should have dm=111, got {cfg['dm_str']}"
     
     cocotb.log.info("[TEST] INPUT_PD mode configuration VERIFIED")
     
@@ -213,12 +213,12 @@ async def gpio_config_test(dut):
     pu_val = env.monitor_gpio_range(INPUT_PU_GPIOS)
     cocotb.log.info(f"[TEST] Pull-up GPIOs read: {pu_val:04b} ({pu_val})")
     
-    # Verify configuration: INPUT_PU should have oeb=0 (driving weak 1), dm=010
+    # Verify configuration: INPUT_PU should have oeb=0 (driving weak 1), dm=111
     for gpio in range(14, 18):
         cfg = get_gpio_config(dut, gpio)
         cocotb.log.info(f"[TEST] GPIO {gpio} config: oeb={cfg['oeb']}, inp_dis={cfg['inp_dis']}, dm={cfg['dm_str']}")
         assert cfg['oeb'] == 0, f"INPUT_PU GPIO {gpio} should have oeb=0 (driving weak 1), got {cfg['oeb']}"
-        assert cfg['dm'] == DM_INPUT_PU, f"INPUT_PU GPIO {gpio} should have dm=010, got {cfg['dm_str']}"
+        assert cfg['dm'] == DM_INPUT_PU, f"INPUT_PU GPIO {gpio} should have dm=111, got {cfg['dm_str']}"
     
     cocotb.log.info("[TEST] INPUT_PU mode configuration VERIFIED")
     
@@ -318,8 +318,8 @@ async def gpio_config_test(dut):
     cocotb.log.info("[TEST] GPIO Configuration Summary:")
     cocotb.log.info(f"[TEST]   OUTPUT (2-5):    dm=110, oeb=0 (strong push-pull)")
     cocotb.log.info(f"[TEST]   INPUT (6-9):     dm=001, oeb=1 (hi-z, no pull)")
-    cocotb.log.info(f"[TEST]   INPUT_PD (10-13):dm=011, oeb=0 (weak pull to 0)")
-    cocotb.log.info(f"[TEST]   INPUT_PU (14-17):dm=010, oeb=0 (weak pull to 1)")
+    cocotb.log.info(f"[TEST]   INPUT_PD (10-13):dm=111, oeb=0 (weak pull to 0)")
+    cocotb.log.info(f"[TEST]   INPUT_PU (14-17):dm=111, oeb=0 (weak pull to 1)")
     cocotb.log.info(f"[TEST]   BIDIR (18-21):   dm=110, oeb=dynamic")
     cocotb.log.info("[TEST] ========================================")
     cocotb.log.info("[TEST] All positive and negative tests PASSED!")
