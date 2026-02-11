@@ -1,5 +1,0 @@
-Test                     status     start           end             duration      p/f      seed       
-RTL-gpio_config_test     done       05:21:09(Mon)   05:21:10(Mon)   0:00:01.11    failed   unknown   
-
-
-Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:00:01.18)

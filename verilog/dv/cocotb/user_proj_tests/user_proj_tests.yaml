@@ -1,0 +1,4 @@
+includes: 
+    - counter_test/counter_test.yaml
+    - gpio_config_test/gpio_config_test.yaml
+    - gpio_func_test/gpio_func_test.yaml

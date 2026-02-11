@@ -1,5 +1,0 @@
-Test                 status     start           end             duration      p/f      seed       
-RTL-counter_test     done       05:20:36(Mon)   05:20:38(Mon)   0:00:02.50    failed   unknown   
-
-
-Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:00:02.58)
