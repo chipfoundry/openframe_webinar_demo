@@ -1,3 +1,3 @@
-from counter_test.counter_test import counter_test
-from gpio_config_test.gpio_config_test import gpio_config_test
-from gpio_func_test.gpio_func_test import gpio_func_test
+from user_proj_tests.counter_test.counter_test import counter_test
+from user_proj_tests.gpio_config_test.gpio_config_test import gpio_config_test
+from user_proj_tests.gpio_func_test.gpio_func_test import gpio_func_test

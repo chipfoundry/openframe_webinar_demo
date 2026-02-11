@@ -1,2 +1,0 @@
-command used to run this sim:
-% /home/marwan/webinar_demo/venv-cocotb/bin/caravel_cocotb -tl user_proj_tests/user_proj_tests.yaml --openframe --CI
